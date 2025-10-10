@@ -1,0 +1,20 @@
+[
+  {
+    "id": 466155,
+    "nombre": "Arroz",
+    "categoria": "Cereales",
+    "precio": 34.95,
+    "stock": 20,
+    "fecha_ingreso": "2025-10-09",
+    "proveedor": "Agromesa"
+  },
+  {
+    "id": 564443,
+    "nombre": "Aceite Crisol 128Oz",
+    "categoria": "Aceites",
+    "precio": 24.95,
+    "stock": 10,
+    "fecha_ingreso": "2025-10-09",
+    "proveedor": "Mercasid"
+  }
+]

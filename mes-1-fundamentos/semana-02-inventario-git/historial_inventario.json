@@ -1,0 +1,102 @@
+[
+  {
+    "timestamp": "2025-10-10T11:44:56.755877",
+    "tipo": "IMPORT",
+    "producto_id": 96755,
+    "producto_nombre": "Laptop Dell Inspiron",
+    "detalle": "Importado desde CSV - fila 2",
+    "usuario": "Sistema CSV",
+    "cantidad_anterior": null,
+    "cantidad_nueva": 5
+  },
+  {
+    "timestamp": "2025-10-10T11:44:56.757972",
+    "tipo": "IMPORT",
+    "producto_id": 96757,
+    "producto_nombre": "Mouse Logitech Mx",
+    "detalle": "Importado desde CSV - fila 3",
+    "usuario": "Sistema CSV",
+    "cantidad_anterior": null,
+    "cantidad_nueva": 15
+  },
+  {
+    "timestamp": "2025-10-10T11:44:56.759172",
+    "tipo": "IMPORT",
+    "producto_id": 96759,
+    "producto_nombre": "Teclado Mecánico",
+    "detalle": "Importado desde CSV - fila 4",
+    "usuario": "Sistema CSV",
+    "cantidad_anterior": null,
+    "cantidad_nueva": 8
+  },
+  {
+    "timestamp": "2025-10-10T11:44:56.760581",
+    "tipo": "IMPORT",
+    "producto_id": 96760,
+    "producto_nombre": "Arroz Premium",
+    "detalle": "Importado desde CSV - fila 5",
+    "usuario": "Sistema CSV",
+    "cantidad_anterior": null,
+    "cantidad_nueva": 25
+  },
+  {
+    "timestamp": "2025-10-10T11:44:56.770405",
+    "tipo": "IMPORT",
+    "producto_id": 96770,
+    "producto_nombre": "Aceite Girasol",
+    "detalle": "Importado desde CSV - fila 6",
+    "usuario": "Sistema CSV",
+    "cantidad_anterior": null,
+    "cantidad_nueva": 12
+  },
+  {
+    "timestamp": "2025-10-10T11:44:56.771899",
+    "tipo": "IMPORT",
+    "producto_id": 96771,
+    "producto_nombre": "Detergente Ariel",
+    "detalle": "Importado desde CSV - fila 7",
+    "usuario": "Sistema CSV",
+    "cantidad_anterior": null,
+    "cantidad_nueva": 20
+  },
+  {
+    "timestamp": "2025-10-10T11:44:56.772660",
+    "tipo": "IMPORT",
+    "producto_id": 96772,
+    "producto_nombre": "Shampoo Pantene",
+    "detalle": "Importado desde CSV - fila 8",
+    "usuario": "Sistema CSV",
+    "cantidad_anterior": null,
+    "cantidad_nueva": 10
+  },
+  {
+    "timestamp": "2025-10-10T11:44:56.777756",
+    "tipo": "IMPORT",
+    "producto_id": 96777,
+    "producto_nombre": "Cuaderno Universitario",
+    "detalle": "Importado desde CSV - fila 9",
+    "usuario": "Sistema CSV",
+    "cantidad_anterior": null,
+    "cantidad_nueva": 50
+  },
+  {
+    "timestamp": "2025-10-10T11:44:56.779081",
+    "tipo": "IMPORT",
+    "producto_id": 96779,
+    "producto_nombre": "Bolígrafos Bic",
+    "detalle": "Importado desde CSV - fila 10",
+    "usuario": "Sistema CSV",
+    "cantidad_anterior": null,
+    "cantidad_nueva": 100
+  },
+  {
+    "timestamp": "2025-10-10T11:44:56.780730",
+    "tipo": "IMPORT",
+    "producto_id": 96780,
+    "producto_nombre": "Café Nescafé",
+    "detalle": "Importado desde CSV - fila 11",
+    "usuario": "Sistema CSV",
+    "cantidad_anterior": null,
+    "cantidad_nueva": 18
+  }
+]

@@ -299,20 +299,28 @@ def pausar():
 def mostrar_menu_principal():
     """Muestra el menú principal del sistema"""
     limpiar_pantalla()
-    mostrar_separador("📦 SISTEMA DE INVENTARIO - SEMANA 2", "=", 60)
+    mostrar_separador("📦 SISTEMA DE INVENTARIO AVANZADO - SEMANA 2+", "=", 70)
+    print("🔧 GESTIÓN DE PRODUCTOS:")
     print("1. ➕ Agregar producto")
     print("2. 📋 Ver todos los productos")
     print("3. 🔍 Buscar producto")
     print("4. ✏️  Actualizar producto")
     print("5. 🗑️  Eliminar producto")
+    print()
+    print("📊 ANÁLISIS Y REPORTES:")
     print("6. 📊 Reportes y estadísticas")
-    print("7. 💾 Guardar datos")
-    print("8. 🔄 Recargar datos")
-    print("9. 🚪 Salir")
-    mostrar_separador("", "-", 60)
+    print("7. 🏷️  Gestión de categorías")
+    print("8. 📜 Historial de movimientos")
+    print()
+    print("� DATOS Y SISTEMA:")
+    print("9. 📥 Importar desde CSV")
+    print("10. �💾 Guardar datos")
+    print("11. 🔄 Recargar datos")
+    print("12. 🚪 Salir")
+    mostrar_separador("", "-", 70)
 
 
-def obtener_opcion_menu(min_opcion: int = 1, max_opcion: int = 9) -> int:
+def obtener_opcion_menu(min_opcion: int = 1, max_opcion: int = 12) -> int:
     """
     Obtiene y valida la opción del menú
 

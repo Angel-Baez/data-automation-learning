@@ -81,6 +81,15 @@
     "proveedor": "P&G"
   },
   {
+    "id": 96777,
+    "nombre": "Cuaderno Universitario",
+    "categoria": "Oficina",
+    "precio": 3.25,
+    "stock": 50,
+    "fecha_ingreso": "2025-10-10",
+    "proveedor": "Papelería"
+  },
+  {
     "id": 96779,
     "nombre": "Bolígrafos Bic",
     "categoria": "Oficina",

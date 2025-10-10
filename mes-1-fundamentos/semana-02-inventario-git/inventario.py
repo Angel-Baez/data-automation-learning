@@ -31,6 +31,20 @@ from utils import (
     limpiar_pantalla,
 )
 
+# Nuevos módulos agregados
+from historial import (
+    HistorialInventario,
+    mostrar_historial_producto,
+    mostrar_resumen_actividad,
+    mostrar_movimientos_recientes,
+)
+from categorias import (
+    GestorCategorias,
+    obtener_categoria_con_sugerencias,
+    mostrar_estadisticas_categorias,
+)
+from importar_csv import ImportadorCSV, proceso_importacion_interactivo
+
 
 class SistemaInventario:
     """
@@ -41,7 +55,13 @@ class SistemaInventario:
         """Inicializa el sistema de inventario"""
         self.productos: List[Product] = []
         self.cambios_sin_guardar = False
-        print("🚀 Iniciando Sistema de Inventario...")
+
+        # Inicializar nuevos módulos
+        self.historial = HistorialInventario()
+        self.gestor_categorias = GestorCategorias()
+        self.importador_csv = ImportadorCSV(self.historial)
+
+        print("🚀 Iniciando Sistema de Inventario Avanzado...")
         self.cargar_datos()
 
     def cargar_datos(self):
@@ -65,7 +85,9 @@ class SistemaInventario:
             if not nombre:
                 return
 
-            categoria = obtener_input_validado("Categoría")
+            categoria = obtener_categoria_con_sugerencias(
+                self.gestor_categorias, "Categoría"
+            )
             if not categoria:
                 return
 
@@ -94,6 +116,16 @@ class SistemaInventario:
             # Crear producto
             nuevo_producto = Product(**datos)
             self.productos.append(nuevo_producto)
+
+            # Registrar en historial
+            self.historial.registrar_movimiento(
+                tipo="CREATE",
+                producto=nuevo_producto,
+                detalle=f"Producto creado - Stock inicial: {nuevo_producto.stock}",
+                cantidad_nueva=nuevo_producto.stock,
+                usuario="Usuario Manual",
+            )
+
             self.marcar_cambios()
 
             print(f"✅ Producto agregado exitosamente:")
@@ -449,6 +481,170 @@ class SistemaInventario:
         print("🚀 Continúa con tu journey de Data Engineering - Semana 2")
         return True
 
+    def gestionar_categorias(self):
+        """Gestiona las categorías del sistema"""
+        limpiar_pantalla()
+        mostrar_separador("🏷️ GESTIÓN DE CATEGORÍAS")
+
+        print("¿Qué deseas hacer?")
+        print("1. Ver estadísticas de categorías")
+        print("2. Buscar categorías")
+        print("3. Ver todas las categorías disponibles")
+        print("4. Volver al menú principal")
+
+        try:
+            opcion = int(input("\nElige una opción (1-4): "))
+
+            if opcion == 1:
+                limpiar_pantalla()
+                mostrar_estadisticas_categorias(self.gestor_categorias, self.productos)
+
+            elif opcion == 2:
+                termino = input("Término a buscar: ").strip()
+                if termino:
+                    resultados = self.gestor_categorias.buscar_categoria(termino)
+                    if resultados:
+                        print(f"\n🔍 Categorías encontradas para '{termino}':")
+                        for cat in resultados:
+                            print(f"   • {cat}")
+                    else:
+                        print(f"❌ No se encontraron categorías para '{termino}'")
+
+            elif opcion == 3:
+                from categorias import mostrar_menu_categorias
+
+                mostrar_menu_categorias(self.gestor_categorias)
+
+                # Opción para ver subcategorías
+                while True:
+                    try:
+                        print(
+                            "\nIngresa el número de categoría para ver subcategorías (0 para salir):"
+                        )
+                        num = int(input("Opción: "))
+                        if num == 0:
+                            break
+
+                        categorias_principales = (
+                            self.gestor_categorias.obtener_categorias_principales()
+                        )
+                        if 1 <= num <= len(categorias_principales):
+                            from categorias import mostrar_subcategorias
+
+                            categoria_sel = categorias_principales[num - 1]
+                            mostrar_subcategorias(self.gestor_categorias, categoria_sel)
+                        else:
+                            print("❌ Opción inválida")
+                    except ValueError:
+                        print("❌ Por favor ingresa un número válido")
+
+            elif opcion == 4:
+                return
+            else:
+                print("❌ Opción inválida")
+
+        except ValueError:
+            print("❌ Por favor ingresa un número válido")
+
+        pausar()
+
+    def ver_historial(self):
+        """Muestra opciones del historial de movimientos"""
+        limpiar_pantalla()
+        mostrar_separador("📜 HISTORIAL DE MOVIMIENTOS")
+
+        print("¿Qué deseas ver?")
+        print("1. Movimientos recientes (últimos 10)")
+        print("2. Historial de un producto específico")
+        print("3. Resumen de actividad (últimos 7 días)")
+        print("4. Limpiar historial antiguo")
+        print("5. Volver al menú principal")
+
+        try:
+            opcion = int(input("\nElige una opción (1-5): "))
+
+            if opcion == 1:
+                limpiar_pantalla()
+                mostrar_movimientos_recientes(self.historial)
+
+            elif opcion == 2:
+                if not self.productos:
+                    print("❌ No hay productos en el inventario")
+                else:
+                    print("\nProductos disponibles:")
+                    for i, producto in enumerate(self.productos, 1):
+                        print(f"{i}. {producto.nombre} (ID: {producto.id})")
+
+                    try:
+                        producto_id = int(input("\nIngresa el ID del producto: "))
+                        producto = self.encontrar_producto_por_id(producto_id)
+
+                        if producto:
+                            mostrar_historial_producto(self.historial, producto_id)
+                        else:
+                            print(f"❌ Producto con ID {producto_id} no encontrado")
+                    except ValueError:
+                        print("❌ Por favor ingresa un ID válido")
+
+            elif opcion == 3:
+                limpiar_pantalla()
+                dias = input("¿Cuántos días atrás? (por defecto 7): ").strip()
+                try:
+                    dias = int(dias) if dias else 7
+                    mostrar_resumen_actividad(self.historial, dias)
+                except ValueError:
+                    print("❌ Número de días inválido, usando 7 días")
+                    mostrar_resumen_actividad(self.historial, 7)
+
+            elif opcion == 4:
+                print("⚠️ Esta acción eliminará movimientos antiguos permanentemente")
+                if confirmar_accion("¿Continuar?"):
+                    dias = input(
+                        "¿Eliminar movimientos más antiguos de cuántos días? (por defecto 90): "
+                    ).strip()
+                    try:
+                        dias = int(dias) if dias else 90
+                        eliminados = self.historial.limpiar_historial_antiguo(dias)
+                        print(f"✅ Se eliminaron {eliminados} movimientos antiguos")
+                    except ValueError:
+                        print("❌ Número de días inválido")
+
+            elif opcion == 5:
+                return
+            else:
+                print("❌ Opción inválida")
+
+        except ValueError:
+            print("❌ Por favor ingresa un número válido")
+
+        pausar()
+
+    def importar_csv(self):
+        """Gestiona la importación de productos desde CSV"""
+        limpiar_pantalla()
+        mostrar_separador("📥 IMPORTACIÓN DESDE CSV")
+
+        productos_importados = proceso_importacion_interactivo(
+            self.importador_csv, self.productos
+        )
+
+        if productos_importados:
+            print(
+                f"\n✅ Se importaron {len(productos_importados)} productos exitosamente"
+            )
+
+            # Agregar productos importados al inventario
+            for producto in productos_importados:
+                self.productos.append(producto)
+
+            self.marcar_cambios()
+
+            # Preguntar si guardar inmediatamente
+            if confirmar_accion("¿Deseas guardar los cambios ahora?"):
+                self.guardar_datos()
+
+        pausar()
+
     def ejecutar(self):
         """Ejecuta el bucle principal del sistema"""
         while True:
@@ -458,7 +654,7 @@ class SistemaInventario:
             if self.cambios_sin_guardar:
                 print("⚠️  Hay cambios sin guardar")
 
-            opcion = obtener_opcion_menu(1, 9)
+            opcion = obtener_opcion_menu(1, 12)
 
             if opcion == 1:
                 self.agregar_producto()
@@ -473,10 +669,16 @@ class SistemaInventario:
             elif opcion == 6:
                 self.mostrar_reportes()
             elif opcion == 7:
-                self.guardar_datos()
+                self.gestionar_categorias()
             elif opcion == 8:
-                self.recargar_datos()
+                self.ver_historial()
             elif opcion == 9:
+                self.importar_csv()
+            elif opcion == 10:
+                self.guardar_datos()
+            elif opcion == 11:
+                self.recargar_datos()
+            elif opcion == 12:
                 if self.salir_sistema():
                     break
 
