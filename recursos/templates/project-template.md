@@ -1,4 +1,30 @@
-# 📁 Template de Proyecto - Semana X
+# 📁 Templates de Proyecto - Data + Automation Engineer
+
+Este directorio contiene templates específicos para cada semana del roadmap de 32 semanas.
+
+## 📋 **Templates Disponibles**
+
+### 🩵 **Mes 1: Fundamentos Sólidos**
+
+- **[Semana 1](template-semana-01.md):** 🔢 **Calculadora Básica**
+  - Fundamentos de Python y programación
+  - Funciones, variables, estructuras de control
+  - Manejo básico de errores
+- **[Semana 2](template-semana-02.md):** 📦 **Sistema de Inventario con Git**
+  - OOP, persistencia JSON, arquitectura modular
+  - Control de versiones Git básico
+  - Testing y documentación profesional
+
+### 💡 **Próximas semanas** (Templates genéricos)
+
+- **Semana 3:** CSV modular + variables de entorno
+- **Semana 4:** SQL básico + base de datos
+
+---
+
+## 📁 **Template Genérico - Semana X**
+
+_Usa este template para semanas que no tienen template específico_
 
 ## 🎯 **Objetivo**
 
@@ -60,8 +86,18 @@
 - [Tutorial seguido](https://ejemplo.com)
 - [Stack Overflow question](https://stackoverflow.com)
 
----
+## 📊 **Progreso del Roadmap**
 
+**Semana actual:** X/32  
 **Fecha inicio:** DD/MM/YYYY  
 **Fecha finalización:** DD/MM/YYYY  
 **Tiempo invertido:** X horas
+
+---
+
+### 🎯 **Próximos pasos:**
+
+- [ ] Completar proyecto de la semana actual
+- [ ] Crear documentación y tests
+- [ ] Hacer commit con buenas prácticas Git
+- [ ] Preparar fundamentos para la siguiente semana
