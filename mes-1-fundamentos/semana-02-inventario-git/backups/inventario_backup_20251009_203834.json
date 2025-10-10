@@ -1,0 +1,11 @@
+[
+  {
+    "id": 466155,
+    "nombre": "Arroz",
+    "categoria": "Cereales",
+    "precio": 34.95,
+    "stock": 20,
+    "fecha_ingreso": "2025-10-09",
+    "proveedor": "Agromesa"
+  }
+]
