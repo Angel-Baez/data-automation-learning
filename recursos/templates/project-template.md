@@ -10,15 +10,21 @@ Este directorio contiene templates específicos para cada semana del roadmap de 
   - Fundamentos de Python y programación
   - Funciones, variables, estructuras de control
   - Manejo básico de errores
+
 - **[Semana 2](template-semana-02.md):** 📦 **Sistema de Inventario con Git**
   - OOP, persistencia JSON, arquitectura modular
   - Control de versiones Git básico
   - Testing y documentación profesional
 
+- **[Semana 3](template-semana-03.md):** 📊 **Procesamiento CSV + Variables de Entorno**
+  - Modularización avanzada en múltiples archivos
+  - Configuración segura con python-dotenv
+  - Procesamiento de datos con pandas y logging estructurado
+
 ### 💡 **Próximas semanas** (Templates genéricos)
 
-- **Semana 3:** CSV modular + variables de entorno
 - **Semana 4:** SQL básico + base de datos
+- **Semana 5-8:** Automatización y APIs
 
 ---
 

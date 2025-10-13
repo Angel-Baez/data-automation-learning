@@ -33,6 +33,7 @@ Los templates te ayudan a:
 1. **[Template Genérico](templates/project-template.md)** - Para cualquier semana
 2. **[Semana 1: Calculadora](templates/template-semana-01.md)** - Fundamentos Python
 3. **[Semana 2: Inventario](templates/template-semana-02.md)** - OOP + Git + Testing
+4. **[Semana 3: CSV Modular](templates/template-semana-03.md)** - Pandas + Variables Entorno
 
 ### 🌐 **APIs recomendadas**
 
@@ -91,7 +92,7 @@ Para cada nueva semana:
 
 - ✅ **Semana 1:** Calculadora Básica (Completada)
 - ✅ **Semana 2:** Sistema Inventario + Git (Completada)
-- 🚧 **Semana 3:** CSV Modular + Variables Entorno (En preparación)
+- � **Semana 3:** CSV Modular + Variables Entorno (Template disponible)
 - ⏳ **Semanas 4-32:** Por desarrollar
 
 ---
