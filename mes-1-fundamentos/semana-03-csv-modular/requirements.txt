@@ -1,0 +1,39 @@
+# === CORE DEPENDENCIES ===
+# Data processing and manipulation
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Environment and configuration management  
+python-dotenv>=1.0.0
+
+# Logging and utilities
+pathlib2>=2.3.0  # For better path handling in older Python versions
+
+# === DEVELOPMENT DEPENDENCIES ===
+# Testing framework
+pytest>=7.0.0
+pytest-cov>=4.0.0  # Coverage reporting
+pytest-mock>=3.10.0  # Mock utilities for testing
+
+# Code quality and formatting
+black>=23.0.0  # Code formatter
+flake8>=6.0.0  # Linter
+mypy>=1.0.0   # Type checking
+
+# Pre-commit hooks for Git
+pre-commit>=3.0.0
+
+# === OPTIONAL DEPENDENCIES ===
+# For advanced CSV processing (if needed)
+# chardet>=5.0.0  # Character encoding detection
+# openpyxl>=3.1.0  # Excel file support
+# xlsxwriter>=3.0.0  # Excel writing
+
+# For notifications (optional)
+# requests>=2.31.0  # HTTP requests for webhooks
+# smtplib  # Built-in Python module for email
+
+# === DOCUMENTATION ===
+# For generating documentation (optional)  
+# sphinx>=6.0.0
+# sphinx-rtd-theme>=1.2.0

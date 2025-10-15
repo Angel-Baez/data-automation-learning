@@ -1,0 +1,105 @@
+# === ENVIRONMENT AND SECRETS ===
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+config/secrets/
+
+# === PYTHON GENERATED FILES ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# === VIRTUAL ENVIRONMENTS ===
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# === IDE AND EDITORS ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# === TESTING AND COVERAGE ===
+.coverage
+.pytest_cache/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+htmlcov/
+.cache
+
+# === LOGGING AND OUTPUT ===
+logs/*.log
+*.log
+data/output/*.csv
+data/output/*.xlsx
+data/output/*.json
+data/temp/
+
+# === JUPYTER NOTEBOOKS ===
+.ipynb_checkpoints
+*.ipynb
+
+# === SYSTEM FILES ===
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# === DATA FILES (keep structure, ignore content) ===
+# Keep sample data but ignore large input files
+data/input/*.csv
+data/input/*.xlsx
+data/input/*.json
+# Exception: keep small sample files
+!data/input/sample_*.csv
+!data/samples/
+
+# === TEMPORARY FILES ===
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# === MYPY ===
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# === DOCUMENTATION ===
+docs/_build/
+site/

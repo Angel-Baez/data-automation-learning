@@ -1,0 +1,55 @@
+{
+  "metadata": {
+    "filename": "01_clean_employees.csv",
+    "file_size_mb": 0.08,
+    "encoding": "ascii",
+    "delimiter": ",",
+    "detected_encoding": "ascii",
+    "detected_delimiter": ",",
+    "has_header": true,
+    "column_names": [
+      "employee_id",
+      "first_name",
+      "last_name",
+      "email",
+      "age",
+      "salary",
+      "department",
+      "hire_date",
+      "active",
+      "performance_score"
+    ],
+    "data_types": {
+      "employee_id": "int64",
+      "first_name": "object",
+      "last_name": "object",
+      "email": "object",
+      "age": "int64",
+      "salary": "float64",
+      "department": "object",
+      "hire_date": "datetime64[ns]",
+      "active": "bool",
+      "performance_score": "float64"
+    },
+    "processing_timestamp": "2025-10-15T18:51:18.057705"
+  },
+  "statistics": {
+    "original_rows": 1000,
+    "final_rows": 1000,
+    "rows_removed": 0,
+    "original_columns": 10,
+    "final_columns": 10,
+    "duplicates_removed": 0,
+    "missing_values_filled": 0,
+    "invalid_rows_removed": 0,
+    "processing_time_seconds": 0.26,
+    "memory_usage_mb": 0.27,
+    "quality_score": 0.8781,
+    "data_reduction_percentage": 0.0
+  },
+  "processing_info": {
+    "processor_version": "1.0.0",
+    "config_profile": "default",
+    "output_file": "data/output/batch_processed/processed_01_clean_employees.csv"
+  }
+}

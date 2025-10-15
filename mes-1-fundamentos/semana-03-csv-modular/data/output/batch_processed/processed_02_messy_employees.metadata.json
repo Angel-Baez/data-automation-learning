@@ -1,0 +1,55 @@
+{
+  "metadata": {
+    "filename": "02_messy_employees.csv",
+    "file_size_mb": 0.06,
+    "encoding": "ascii",
+    "delimiter": ",",
+    "detected_encoding": "ascii",
+    "detected_delimiter": ",",
+    "has_header": true,
+    "column_names": [
+      "id",
+      "first_name",
+      "last_name",
+      "email_address",
+      "age_years",
+      "annual_salary_",
+      "dept",
+      "start_date",
+      "is_active",
+      "score"
+    ],
+    "data_types": {
+      "id": "int64",
+      "first_name": "object",
+      "last_name": "object",
+      "email_address": "object",
+      "age_years": "int64",
+      "annual_salary_": "float64",
+      "dept": "object",
+      "start_date": "datetime64[ns]",
+      "is_active": "bool",
+      "score": "float64"
+    },
+    "processing_timestamp": "2025-10-15T18:51:18.989395"
+  },
+  "statistics": {
+    "original_rows": 800,
+    "final_rows": 800,
+    "rows_removed": 0,
+    "original_columns": 10,
+    "final_columns": 10,
+    "duplicates_removed": 0,
+    "missing_values_filled": 51,
+    "invalid_rows_removed": 0,
+    "processing_time_seconds": 0.28,
+    "memory_usage_mb": 0.21,
+    "quality_score": 0.8776,
+    "data_reduction_percentage": 0.0
+  },
+  "processing_info": {
+    "processor_version": "1.0.0",
+    "config_profile": "default",
+    "output_file": "data/output/batch_processed/processed_02_messy_employees.csv"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "generated_date": "2025-10-15T18:28:20.771390",
+  "total_files": 10,
+  "files": [
+    {
+      "name": "01_clean_employees.csv",
+      "path": "data/samples/01_clean_employees.csv",
+      "size_bytes": 81440
+    },
+    {
+      "name": "02_messy_employees.csv",
+      "path": "data/samples/02_messy_employees.csv",
+      "size_bytes": 63282
+    },
+    {
+      "name": "03_mixed_types.csv",
+      "path": "data/samples/03_mixed_types.csv",
+      "size_bytes": 53113
+    },
+    {
+      "name": "04_large_transactions.csv",
+      "path": "data/samples/04_large_transactions.csv",
+      "size_bytes": 749819
+    },
+    {
+      "name": "05_corrupted_data.csv",
+      "path": "data/samples/05_corrupted_data.csv",
+      "size_bytes": 8965
+    },
+    {
+      "name": "semicolon_data.csv",
+      "path": "data/samples/semicolon_data.csv",
+      "size_bytes": 12006
+    },
+    {
+      "name": "tab_data.csv",
+      "path": "data/samples/tab_data.csv",
+      "size_bytes": 12006
+    },
+    {
+      "name": "pipe_data.csv",
+      "path": "data/samples/pipe_data.csv",
+      "size_bytes": 12006
+    },
+    {
+      "name": "utf8_data.csv",
+      "path": "data/samples/utf8_data.csv",
+      "size_bytes": 18950
+    },
+    {
+      "name": "utf16_data.csv",
+      "path": "data/samples/utf16_data.csv",
+      "size_bytes": 29554
+    }
+  ]
+}

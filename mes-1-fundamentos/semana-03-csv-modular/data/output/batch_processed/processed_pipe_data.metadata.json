@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "filename": "pipe_data.csv",
+    "file_size_mb": 0.01,
+    "encoding": "ascii",
+    "delimiter": "|",
+    "detected_encoding": "ascii",
+    "detected_delimiter": "|",
+    "has_header": true,
+    "column_names": [
+      "id",
+      "name",
+      "email",
+      "value"
+    ],
+    "data_types": {
+      "id": "int64",
+      "name": "object",
+      "email": "object",
+      "value": "float64"
+    },
+    "processing_timestamp": "2025-10-15T18:51:20.956522"
+  },
+  "statistics": {
+    "original_rows": 300,
+    "final_rows": 300,
+    "rows_removed": 0,
+    "original_columns": 4,
+    "final_columns": 4,
+    "duplicates_removed": 0,
+    "missing_values_filled": 0,
+    "invalid_rows_removed": 0,
+    "processing_time_seconds": 0.13,
+    "memory_usage_mb": 0.04,
+    "quality_score": 0.9923,
+    "data_reduction_percentage": 0.0
+  },
+  "processing_info": {
+    "processor_version": "1.0.0",
+    "config_profile": "default",
+    "output_file": "data/output/batch_processed/processed_pipe_data.csv"
+  }
+}

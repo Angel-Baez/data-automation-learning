@@ -1,0 +1,55 @@
+{
+  "metadata": {
+    "filename": "04_large_transactions.csv",
+    "file_size_mb": 0.72,
+    "encoding": "ascii",
+    "delimiter": ",",
+    "detected_encoding": "ascii",
+    "detected_delimiter": ",",
+    "has_header": true,
+    "column_names": [
+      "transaction_id",
+      "customer_id",
+      "product_code",
+      "quantity",
+      "unit_price",
+      "discount",
+      "total_amount",
+      "transaction_date",
+      "customer_segment",
+      "region"
+    ],
+    "data_types": {
+      "transaction_id": "int64",
+      "customer_id": "int64",
+      "product_code": "object",
+      "quantity": "int64",
+      "unit_price": "float64",
+      "discount": "float64",
+      "total_amount": "float64",
+      "transaction_date": "datetime64[ns]",
+      "customer_segment": "object",
+      "region": "object"
+    },
+    "processing_timestamp": "2025-10-15T18:51:20.645513"
+  },
+  "statistics": {
+    "original_rows": 10000,
+    "final_rows": 10000,
+    "rows_removed": 0,
+    "original_columns": 10,
+    "final_columns": 10,
+    "duplicates_removed": 0,
+    "missing_values_filled": 0,
+    "invalid_rows_removed": 0,
+    "processing_time_seconds": 1.3,
+    "memory_usage_mb": 2.13,
+    "quality_score": 0.8732,
+    "data_reduction_percentage": 0.0
+  },
+  "processing_info": {
+    "processor_version": "1.0.0",
+    "config_profile": "default",
+    "output_file": "data/output/batch_processed/processed_04_large_transactions.csv"
+  }
+}

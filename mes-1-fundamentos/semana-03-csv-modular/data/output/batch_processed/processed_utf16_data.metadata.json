@@ -1,0 +1,43 @@
+{
+  "metadata": {
+    "filename": "utf16_data.csv",
+    "file_size_mb": 0.03,
+    "encoding": "UTF-16",
+    "delimiter": ",",
+    "detected_encoding": "UTF-16",
+    "detected_delimiter": ",",
+    "has_header": true,
+    "column_names": [
+      "id",
+      "name",
+      "city",
+      "description"
+    ],
+    "data_types": {
+      "id": "int64",
+      "name": "object",
+      "city": "object",
+      "description": "object"
+    },
+    "processing_timestamp": "2025-10-15T18:51:18.124432"
+  },
+  "statistics": {
+    "original_rows": 200,
+    "final_rows": 200,
+    "rows_removed": 0,
+    "original_columns": 4,
+    "final_columns": 4,
+    "duplicates_removed": 0,
+    "missing_values_filled": 0,
+    "invalid_rows_removed": 0,
+    "processing_time_seconds": 0.04,
+    "memory_usage_mb": 0.07,
+    "quality_score": 0.854,
+    "data_reduction_percentage": 0.0
+  },
+  "processing_info": {
+    "processor_version": "1.0.0",
+    "config_profile": "default",
+    "output_file": "data/output/batch_processed/processed_utf16_data.csv"
+  }
+}

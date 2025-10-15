@@ -1,0 +1,112 @@
+{
+  "processing_rules": {
+    "data_types": {
+      "auto_detect": true,
+      "type_mappings": {
+        "string": ["object", "string"],
+        "integer": ["int64", "Int64"],
+        "float": ["float64", "Float64"],
+        "boolean": ["bool", "boolean"],
+        "datetime": ["datetime64[ns]", "datetime"]
+      }
+    },
+    "cleaning_rules": {
+      "remove_duplicates": true,
+      "handle_missing_values": {
+        "strategy": "smart",
+        "numeric_fill": "median",
+        "categorical_fill": "mode",
+        "date_fill": "forward_fill"
+      },
+      "text_cleaning": {
+        "strip_whitespace": true,
+        "normalize_case": false,
+        "remove_special_chars": false
+      }
+    },
+    "validation_rules": {
+      "required_columns": [],
+      "min_rows": 1,
+      "max_missing_percentage": 25,
+      "date_formats": ["%Y-%m-%d", "%d/%m/%Y", "%m/%d/%Y", "%Y-%m-%d %H:%M:%S"],
+      "email_validation": true,
+      "phone_validation": false
+    },
+    "transformation_rules": {
+      "normalize_names": {
+        "enabled": true,
+        "format": "snake_case"
+      },
+      "derive_columns": {
+        "enabled": false,
+        "rules": []
+      },
+      "aggregations": {
+        "enabled": false,
+        "group_by": [],
+        "metrics": []
+      }
+    }
+  },
+  "output_rules": {
+    "formats": {
+      "csv": {
+        "separator": ",",
+        "encoding": "utf-8",
+        "include_index": false
+      },
+      "excel": {
+        "sheet_name": "ProcessedData",
+        "include_index": false
+      },
+      "json": {
+        "orient": "records",
+        "indent": 2
+      }
+    },
+    "file_naming": {
+      "pattern": "{original_name}_processed_{timestamp}",
+      "timestamp_format": "%Y%m%d_%H%M%S"
+    }
+  },
+  "quality_metrics": {
+    "completeness": {
+      "weight": 0.3,
+      "min_threshold": 0.8
+    },
+    "uniqueness": {
+      "weight": 0.2,
+      "min_threshold": 0.95
+    },
+    "consistency": {
+      "weight": 0.25,
+      "min_threshold": 0.9
+    },
+    "validity": {
+      "weight": 0.25,
+      "min_threshold": 0.85
+    }
+  },
+  "profiles": {
+    "strict": {
+      "validation_rules": {
+        "max_missing_percentage": 5,
+        "strict_validation": true
+      },
+      "quality_metrics": {
+        "completeness": { "min_threshold": 0.95 },
+        "uniqueness": { "min_threshold": 0.99 }
+      }
+    },
+    "lenient": {
+      "validation_rules": {
+        "max_missing_percentage": 50,
+        "strict_validation": false
+      },
+      "quality_metrics": {
+        "completeness": { "min_threshold": 0.6 },
+        "uniqueness": { "min_threshold": 0.8 }
+      }
+    }
+  }
+}

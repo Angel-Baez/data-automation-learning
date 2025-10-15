@@ -1,0 +1,801 @@
+ID, First Name ,Last-Name!,EMAIL_ADDRESS,Age (Years),Annual Salary $,Dept.,Start Date,Is Active?,Score
+1,Blake,White	,blake.hernandez@corp.com,45,65679.35,Marketing,2020-03-07,1,4.7
+2,Frank,Williams,peter.smith@company.com,38,68378.45,Finance,2017-10-24,0,1.1
+3,Uma,Brown,peter.brown@enterprise.net,53,69608.78,Operations,2017-10-12,FALSE,3.9
+4,Zoe,White,peter.anderson@business.org,37,51879.17,HR,2018-11-29,0,4.6
+5,,Johnson,jack.harris@enterprise.net,37,94480.93,Operations,2023-05-13,0,1.2
+6,Kate,Davis,tara.jackson@business.org,60,91631.76,HR,2025-08-17,1,2.8
+7,  Noah  ,Martin,quinn.brown@corp.com,52,80884.91,Finance,2023-07-05,Yes,1.8
+8,Uma,Jones,alex.thompson@company.com,64,56482.77,Marketing,2016-07-01,Yes,3.3
+9,Tara,Clark	,kate.moore@company.com,45,75782.88,Marketing,2018-07-19,Yes,3.6
+10,Sam,Clark,zoe.martinez@firm.co,22,84567.4,Sales,2021-04-07,Yes,2.2
+11,Maya,Martinez,olivia.gonzalez@firm.co,32,40536.06,Sales,2024-06-18,TRUE,2.8
+12,Blake,Smith,noah.davis@firm.co,42,98890.24,Sales,2015-12-14,1,2.1
+13,Drew,Hernandez,henry.moore@business.org,25,30212.25,Engineering,2022-08-06,No,2.5
+14,Charlie,Thompson,peter.gonzalez@company.com,28,79092.12,Operations,2019-04-29,1,1.6
+15,Charlie,Sanchez,kate.miller@firm.co,47,94065.65,Finance,2020-02-05,TRUE,4.5
+16,Frank,Brown,noah.sanchez@corp.com,33,62738.73,Marketing,2020-03-02,Yes,1.0
+17,Kate,Martinez,sam.sanchez@enterprise.net,52,61990.71,Operations,2023-10-18,TRUE,4.5
+18,Henry,Anderson,rachel.thompson@business.org,38,78353.22,Engineering,2019-07-09,FALSE,3.3
+19,Kate,Thomas,frank.perez@company.com,54,102037.64,HR,2023-07-15,FALSE,2.3
+20,Kate,Smith	,invalid.email,32,59378.65,Finance,2018-04-23,1,3.9
+21,Uma,Hernandez,alex.thomas@company.com,49,49380.9,Engineering,2017-06-03,1,3.0
+22,  Jack  ,Miller,sam.martin@corp.com,53,56524.49,Engineering,2019-05-13,No,3.0
+23,Wendy,White,kate.moore@company.com,22,33949.72,HR,2018-03-03,No,1.4
+24,Ivy,Moore,alex.anderson@business.org,49,82955.16,Engineering,2018-01-20,FALSE,2.6
+25,Tara,Miller,jack.gonzalez@company.com,63,54718.34,Engineering,2018-12-12,Yes,2.0
+26,Uma,Miller,tara.brown@firm.co,28,60833.22,Sales,2019-05-16,TRUE,1.1
+27,Maya,Moore,yara.clark@corp.com,23,83192.42,Operations,2023-09-28,No,2.4
+28,Ivy,Taylor,kate.thomas@company.com,63,57461.79,HR,2024-12-22,0,1.4
+29,Casey,Harris,charlie.miller@business.org,45,80181.81,HR,2019-02-10,No,2.0
+30,Olivia,Rodriguez,casey.jackson@company.com,25,44238.23,Operations,2024-04-08,Yes,1.4
+31,Yara,Moore,yara.jones@business.org,40,84174.39,HR,2017-05-05,Yes,1.4
+32,Blake,Thomas,olivia.moore@enterprise.net,47,71838.1,Operations,2024-12-23,1,1.8
+33,Liam,Martin,maya.martin@firm.co,32,63228.42,Operations,2024-04-12,TRUE,5.0
+34,  Xander  ,White	,olivia.miller@business.org,61,67617.87,Finance,2022-10-18,Yes,1.0
+35,Sam,Jones	,victor.hernandez@enterprise.net,64,39264.77,Operations,2019-04-26,No,3.6
+36,    ,Thompson,,32,,HR,2016-02-11,No,1.6
+37,Olivia,Thompson,drew.wilson@enterprise.net,24,62166.6,Marketing,2023-02-25,FALSE,4.7
+38,  Noah  ,Perez,charlie.jackson@company.com,33,39811.35,Finance,2015-10-30,Yes,1.4
+39,Frank,Smith,tara.taylor@corp.com,24,51578.49,Finance,2019-11-04,0,4.8
+40,,Gonzalez	,blake.jones@enterprise.net,63,62415.09,Marketing,2017-07-14,1,3.4
+41,Blake,Jackson,bob.lopez@firm.co,48,52854.16,Operations,2016-12-07,TRUE,1.0
+42,Alice,Perez,bob.smith@firm.co,23,16757.72,Operations,2022-08-19,0,4.6
+43,Eve,Taylor,alex.lopez@company.com,37,86527.75,Operations,2023-07-23,1,3.1
+44,Xander,Johnson,blake.martinez@company.com,23,62158.2,Operations,2016-03-14,No,2.1
+45,Henry,Rodriguez,henry.wilson@firm.co,51,19521.0,HR,2018-02-07,0,4.1
+46,Victor,Garcia,maya.lee@enterprise.net,41,107699.26,Marketing,2025-06-13,1,4.7
+47,Ivy,Johnson,wendy.gonzalez@corp.com,59,89827.85,Engineering,2017-12-08,No,2.9
+48,Xander,Martinez,maya.wilson@firm.co,49,58020.36,Sales,2018-02-08,No,2.3
+49,Wendy,Miller,grace.perez@business.org,46,48150.05,Sales,2019-09-25,No,4.2
+50,Xander,Sanchez,invalid.email,53,73063.82,Engineering,2018-10-26,No,3.7
+51,  Charlie  ,Thompson,rachel.gonzalez@enterprise.net,31,69046.54,Sales,2022-11-15,No,4.6
+52,Grace,Martin,alex.wilson@business.org,63,75841.8,Engineering,2018-01-27,FALSE,3.8
+53,Frank,Rodriguez	,jack.perez@business.org,61,48207.59,Engineering,2019-06-05,0,2.0
+54,Maya,Johnson,eve.smith@company.com,54,86955.44,Operations,2015-10-21,1,4.7
+55,Diana,Anderson,uma.smith@business.org,34,55530.76,Sales,2020-08-13,FALSE,1.4
+56,Diana,Lee,xander.thomas@corp.com,62,78615.31,Engineering,2025-09-07,FALSE,2.1
+57,Charlie,Smith,eve.williams@business.org,63,49061.21,Sales,2020-12-01,Yes,3.1
+58,Drew,Williams,uma.sanchez@corp.com,58,117962.88,HR,2018-07-09,Yes,3.3
+59,  Casey  ,Gonzalez,blake.anderson@firm.co,37,78910.47,Operations,2018-02-27,Yes,1.1
+60,Peter,Perez,drew.wilson@firm.co,43,122684.65,Sales,2018-06-02,TRUE,4.1
+61,Rachel,Rodriguez,frank.anderson@firm.co,41,81552.04,Operations,2025-02-15,Yes,2.4
+62,Bob,Perez,noah.moore@corp.com,64,53770.71,Sales,2016-02-18,1,2.6
+63,Alice,Perez,maya.lopez@business.org,48,81587.62,HR,2022-01-31,FALSE,4.2
+64,Yara,Lopez,frank.wilson@firm.co,62,83011.56,Operations,2020-11-09,1,2.5
+65,Maya,Brown,alice.jackson@corp.com,37,72466.48,Finance,2016-03-28,0,1.2
+66,Quinn,Smith,blake.white@business.org,55,77607.85,Sales,2021-02-22,Yes,1.7
+67,Yara,Martinez,wendy.taylor@enterprise.net,53,80234.54,Engineering,2022-08-20,TRUE,4.8
+68,Charlie,Lee,noah.moore@firm.co,47,45126.38,Marketing,2024-05-05,0,1.3
+69,Diana,Gonzalez,liam.johnson@company.com,46,43702.83,HR,2018-01-30,TRUE,2.4
+70,Ivy,Davis,sam.thomas@enterprise.net,23,49115.66,Sales,2019-11-24,0,3.0
+71,Tara,Gonzalez,,33,67550.85,HR,2020-06-22,FALSE,3.0
+72,Eve,Taylor	,wendy.williams@business.org,61,60536.58,HR,2020-02-25,1,1.0
+73,Charlie,Thompson	,xander.white@firm.co,30,45488.59,Engineering,2021-08-27,No,3.0
+74,Uma,Brown,blake.harris@enterprise.net,33,80506.28,Engineering,2019-11-28,1,2.5
+75,Drew,Hernandez,,47,70660.9,Sales,2017-03-13,Yes,4.9
+76,Casey,Thomas,quinn.martin@company.com,30,68378.58,Sales,2025-03-21,No,1.6
+77,Maya,Martin,henry.thomas@company.com,31,59840.21,Operations,2015-10-18,TRUE,2.4
+78,Jack,Moore,victor.lee@firm.co,53,57435.44,Operations,2017-08-14,FALSE,2.7
+79,Henry,Williams,zoe.jackson@enterprise.net,55,48173.38,HR,2023-03-11,FALSE,2.6
+80,Henry,Garcia,tara.johnson@enterprise.net,41,83674.81,HR,2025-03-07,TRUE,3.7
+81,  Xander  ,Miller,rachel.harris@company.com,60,50930.14,HR,2022-08-04,Yes,1.9
+82,Jack,Taylor,peter.anderson@firm.co,23,69187.81,Engineering,2020-12-30,TRUE,1.9
+83,Olivia,Anderson,casey.thomas@firm.co,22,98240.21,HR,2019-09-27,0,3.9
+84,,Moore,,57,58354.85,Finance,2020-09-03,Yes,3.0
+85,Eve,Thompson,liam.sanchez@enterprise.net,45,84214.04,Sales,2022-02-28,No,2.7
+86,Eve,Smith,jack.garcia@company.com,48,76374.18,Sales,2025-08-25,TRUE,1.7
+87,Quinn,Johnson,wendy.martin@enterprise.net,23,71229.35,Marketing,2021-04-24,Yes,1.8
+88,Alex,Davis,xander.sanchez@firm.co,52,73606.97,Finance,2023-07-11,No,1.0
+89,Frank,Taylor,ivy.johnson@corp.com,35,63101.87,HR,2021-12-15,TRUE,1.4
+90,  Alice  ,Martinez,sam.garcia@firm.co,23,65695.52,Engineering,2024-10-15,FALSE,3.2
+91,Bob,Hernandez,bob.perez@enterprise.net,50,54037.72,Marketing,2015-11-03,TRUE,4.6
+92,Victor,Thomas,zoe.white@firm.co,36,65829.14,Engineering,2019-04-18,1,2.1
+93,Liam,Gonzalez,alice.martinez@corp.com,33,53295.48,Engineering,2016-08-25,TRUE,2.3
+94,Blake,White,charlie.jones@firm.co,58,85113.1,Operations,2025-06-04,1,1.5
+95,Drew,Garcia,charlie.sanchez@enterprise.net,49,31010.05,Operations,2017-06-09,No,2.6
+96,Kate,Smith,ivy.jones@firm.co,41,74621.07,HR,2023-03-06,TRUE,1.1
+97,Blake,Lopez,ivy.rodriguez@enterprise.net,60,71731.73,HR,2017-12-22,No,4.7
+98,,Perez,,45,69920.32,HR,2020-12-15,No,3.7
+99,Olivia,Lopez,tara.garcia@firm.co,42,85489.98,Operations,2024-11-15,Yes,5.0
+100,Blake,Lopez,xander.jones@corp.com,31,59277.53,Finance,2022-11-27,No,4.5
+101,Rachel,Lee,liam.sanchez@business.org,35,70108.68,Finance,2023-07-02,No,2.9
+102,Drew,Martinez,ivy.sanchez@business.org,58,30669.16,Operations,2023-11-12,TRUE,3.1
+103,Ivy,Davis,peter.garcia@firm.co,39,56693.66,Finance,2022-01-06,TRUE,1.8
+104,Rachel,Taylor,blake.johnson@enterprise.net,45,82114.73,Marketing,2022-03-22,FALSE,2.8
+105,Olivia,Rodriguez,charlie.jones@firm.co,35,38216.77,Engineering,2025-01-01,Yes,4.6
+106,Eve,Sanchez,drew.clark@business.org,55,68194.87,HR,2018-09-08,No,1.2
+107,  Wendy  ,Johnson,alex.thomas@corp.com,33,51449.66,HR,2018-09-11,Yes,4.5
+108,Rachel,Lee,yara.gonzalez@business.org,43,62780.26,HR,2024-08-15,1,2.4
+109,Frank,Rodriguez,victor.anderson@business.org,27,52646.45,Finance,2025-05-24,No,4.6
+110,Sam,Gonzalez,grace.jackson@enterprise.net,57,40056.09,Finance,2020-04-29,Yes,4.8
+111,Tara,Clark,bob.lee@enterprise.net,57,72720.07,Operations,2020-11-11,FALSE,3.7
+112,Olivia,Smith,yara.clark@company.com,43,64008.06,Finance,2016-08-24,FALSE,3.7
+113,  Uma  ,Moore,bob.garcia@corp.com,35,77252.58,Operations,2025-06-09,No,2.8
+114,Xander,Rodriguez,maya.thomas@enterprise.net,37,80888.76,HR,2019-01-23,1,4.3
+115,Uma,Davis,peter.white@firm.co,57,89505.17,Sales,2016-10-07,FALSE,4.8
+116,Casey,Jones,henry.gonzalez@corp.com,46,67669.73,Operations,2018-09-07,FALSE,4.1
+117,Sam,Hernandez,peter.rodriguez@business.org,53,90372.42,Engineering,2021-12-16,1,3.5
+118,Noah,Gonzalez	,quinn.wilson@company.com,54,45484.51,Finance,2016-04-13,Yes,3.4
+119,Quinn,Perez,jack.sanchez@corp.com,57,83179.2,Engineering,2022-11-25,FALSE,4.4
+120,Uma,Jones,maya.perez@enterprise.net,41,74187.81,HR,2022-12-08,TRUE,3.2
+121,Uma,Williams,quinn.perez@company.com,39,69661.85,Finance,2024-07-01,0,4.2
+122,Rachel,White,diana.moore@enterprise.net,59,73894.64,Marketing,2020-05-25,0,3.0
+123,Jack,Gonzalez,blake.wilson@firm.co,24,45785.22,Finance,2023-01-13,FALSE,1.2
+124,Drew,Taylor,drew.lee@enterprise.net,44,41065.06,Engineering,2021-11-20,Yes,2.5
+125,Liam,Perez,kate.rodriguez@enterprise.net,53,99196.56,Marketing,2016-05-16,Yes,2.8
+126,Peter,Martin	,zoe.brown@enterprise.net,37,61625.56,Operations,2025-02-05,No,1.6
+127,Rachel,Lee,uma.jackson@corp.com,26,61340.13,HR,2016-06-29,TRUE,1.4
+128,Henry,Perez,olivia.harris@business.org,25,42953.81,HR,2021-12-19,Yes,3.1
+129,Zoe,Davis	,xander.perez@firm.co,42,35364.43,Engineering,2019-11-18,1,1.3
+130,Charlie,Wilson,yara.miller@firm.co,61,63233.62,HR,2016-10-20,TRUE,2.2
+131,Olivia,Davis,kate.perez@business.org,35,58168.24,Finance,2023-01-20,0,4.0
+132,Jack,Jackson	,kate.moore@company.com,60,65034.69,Operations,2024-11-21,TRUE,4.9
+133,Liam,Jones,victor.smith@company.com,52,66743.08,Marketing,2017-01-03,1,3.9
+134,Noah,Wilson	,alice.wilson@company.com,35,114789.22,HR,2018-12-24,FALSE,5.0
+135,Ivy,Martinez,quinn.brown@corp.com,27,58228.4,Operations,2018-10-05,1,3.8
+136,,Martin,,33,,HR,2020-10-15,1,2.2
+137,Jack,Hernandez,ivy.miller@company.com,37,97840.48,Engineering,2017-02-20,FALSE,3.7
+138,Alice,Anderson,alice.martin@company.com,38,80072.49,Sales,2024-08-20,FALSE,3.8
+139,Alice,Moore,bob.martin@business.org,44,60297.47,Marketing,2018-09-11,FALSE,2.5
+140,,Jones,,35,37770.55,Operations,2020-09-13,FALSE,1.1
+141,Alex,Miller,wendy.brown@company.com,28,74558.88,Sales,2019-03-20,FALSE,3.8
+142,Yara,Lee,blake.martin@business.org,53,85376.24,HR,2024-04-22,1,1.1
+143,Blake,Jones,maya.perez@firm.co,36,,Marketing,2024-09-30,No,3.5
+144,Eve,Jackson,zoe.garcia@company.com,38,46000.84,HR,2025-01-10,No,1.7
+145,  Liam  ,Moore,wendy.garcia@enterprise.net,62,60129.47,Sales,2025-05-02,Yes,3.3
+146,Jack,Perez,jack.anderson@company.com,55,46122.71,Finance,2021-06-23,No,3.0
+147,Peter,Sanchez,uma.anderson@enterprise.net,26,52330.44,Sales,2022-03-12,0,1.1
+148,Rachel,Miller,yara.wilson@enterprise.net,48,78287.75,Finance,2016-03-14,No,2.5
+149,Alice,Jones,ivy.garcia@company.com,44,51413.9,Operations,2017-12-06,1,3.4
+150,Wendy,Martinez,ivy.harris@company.com,61,48514.58,Marketing,2024-12-23,FALSE,4.4
+151,Drew,Thompson,maya.gonzalez@enterprise.net,35,80939.92,Finance,2016-12-06,FALSE,4.6
+152,Peter,Thompson,bob.rodriguez@enterprise.net,36,74014.78,Operations,2024-04-11,1,2.9
+153,,Taylor,frank.anderson@company.com,64,72000.22,Operations,2025-01-05,0,3.9
+154,Peter,Jones,peter.miller@firm.co,54,51942.25,HR,2016-09-16,No,2.3
+155,  Jack  ,Wilson,maya.garcia@corp.com,52,90860.47,Sales,2020-10-01,1,2.4
+156,Alice,Harris,diana.jones@firm.co,56,65289.8,Marketing,2025-02-03,Yes,1.8
+157,Yara,Jones,yara.wilson@business.org,38,112603.8,Operations,2022-04-30,FALSE,3.2
+158,  Noah  ,Lee,tara.lee@company.com,49,68223.32,Operations,2018-11-10,TRUE,2.3
+159,Zoe,Jackson,drew.anderson@enterprise.net,40,18333.04,HR,2018-09-08,Yes,1.3
+160,Jack,Garcia,diana.johnson@company.com,44,17442.49,HR,2020-11-12,0,3.7
+161,Tara,Hernandez,charlie.jackson@enterprise.net,53,77479.0,Operations,2024-12-20,Yes,3.8
+162,Henry,Williams,yara.anderson@company.com,61,91009.88,Operations,2024-07-25,1,2.4
+163,  Zoe  ,Moore,casey.thomas@business.org,34,49323.44,Operations,2018-02-09,No,1.3
+164,Alice,Moore,uma.lee@company.com,41,107019.58,Marketing,2025-01-30,FALSE,2.7
+165,Rachel,White,drew.johnson@corp.com,56,98259.98,HR,2019-06-09,0,2.8
+166,Liam,Brown,ivy.jones@enterprise.net,26,69210.94,Sales,2025-02-14,0,3.7
+167,Grace,Garcia,casey.gonzalez@firm.co,30,75789.08,Finance,2022-05-27,TRUE,2.3
+168,Noah,Hernandez,alice.taylor@corp.com,50,82890.6,Sales,2016-03-05,Yes,3.7
+169,Casey,Clark,peter.wilson@corp.com,27,102799.9,Marketing,2021-06-06,TRUE,4.5
+170,Rachel,Jones,blake.white@company.com,46,78642.72,Operations,2021-03-15,No,1.9
+171,Noah,White	,rachel.davis@company.com,52,68758.63,Operations,2024-08-19,No,4.9
+172,Maya,Smith,maya.thompson@corp.com,43,78446.02,Engineering,2018-10-14,TRUE,2.5
+173,Henry,Harris,diana.jackson@firm.co,23,75747.21,Operations,2017-04-10,FALSE,2.1
+174,Frank,Hernandez,drew.lopez@enterprise.net,26,83488.2,HR,2021-02-05,No,2.7
+175,Wendy,Wilson,victor.martinez@corp.com,48,33599.53,Sales,2023-02-04,TRUE,1.4
+176,Xander,Wilson,bob.lee@company.com,46,71317.07,Sales,2016-01-05,Yes,1.5
+177,  Uma  ,Martinez,liam.moore@enterprise.net,29,74208.81,Sales,2018-12-26,TRUE,2.7
+178,Maya,Anderson	,charlie.clark@corp.com,22,63543.06,Sales,2016-11-16,TRUE,4.0
+179,Alex,White,yara.harris@enterprise.net,41,80683.33,Finance,2018-04-23,1,4.6
+180,  Maya  ,Clark,uma.miller@business.org,44,103423.35,HR,2018-09-17,No,3.7
+181,Henry,Lee	,rachel.johnson@corp.com,53,67764.34,Engineering,2025-08-03,FALSE,1.4
+182,Ivy,White,victor.miller@enterprise.net,32,78834.42,HR,2020-08-15,FALSE,3.7
+183,Charlie,Rodriguez,wendy.gonzalez@company.com,60,97125.3,HR,2021-05-27,1,3.5
+184,Noah,Jones,uma.thompson@enterprise.net,45,68231.29,Marketing,2020-07-02,0,4.2
+185,Uma,Harris	,peter.williams@corp.com,32,47230.74,Sales,2016-10-16,FALSE,4.3
+186,Henry,Miller,xander.miller@business.org,50,77315.58,Sales,2020-11-27,TRUE,4.5
+187,Quinn,Brown,bob.miller@company.com,47,20966.68,Finance,2015-11-03,1,2.7
+188,,Jones,xander.jackson@business.org,37,19032.66,Engineering,2018-10-02,Yes,3.8
+189,Zoe,Garcia,peter.gonzalez@company.com,56,71660.24,Engineering,2018-10-06,No,2.1
+190,Drew,Smith,zoe.moore@enterprise.net,41,18100.59,Marketing,2024-07-28,No,5.0
+191,Tara,Harris,peter.moore@corp.com,24,38696.65,Marketing,2021-11-24,No,1.7
+192,Zoe,Martin	,alice.johnson@enterprise.net,22,57398.03,Marketing,2018-05-29,TRUE,1.0
+193,  Wendy  ,Martin,bob.hernandez@company.com,22,50571.67,Operations,2018-02-17,Yes,1.6
+194,Victor,Rodriguez,maya.brown@business.org,38,62043.87,Sales,2016-12-05,1,4.1
+195,Ivy,Martin,zoe.lee@firm.co,23,87257.4,Sales,2025-06-01,1,2.8
+196,Jack,Jackson,olivia.perez@firm.co,50,69769.62,Finance,2020-08-13,No,2.8
+197,Uma,Martin,eve.white@firm.co,41,48213.59,Engineering,2019-11-28,Yes,4.8
+198,Xander,Davis,henry.williams@company.com,27,92088.82,Engineering,2022-01-10,Yes,4.7
+199,Rachel,Martin,xander.jones@corp.com,29,36422.86,Marketing,2019-02-12,Yes,2.2
+200,Zoe,Davis,uma.smith@corp.com,50,69437.67,HR,2023-07-20,FALSE,1.8
+201,Ivy,Davis,drew.martin@company.com,54,34198.28,Engineering,2024-06-30,FALSE,4.4
+202,Noah,Perez,henry.thompson@business.org,24,70046.36,Finance,2024-07-22,No,4.6
+203,Grace,Smith,alice.garcia@company.com,56,58627.45,Sales,2025-07-27,Yes,3.2
+204,Blake,Lopez,casey.martinez@company.com,26,86644.76,Engineering,2019-01-13,0,3.5
+205,Charlie,Williams,olivia.martin@business.org,48,79413.79,Finance,2017-09-16,Yes,2.0
+206,Frank,Thompson,alex.jackson@company.com,33,53257.21,Sales,2024-12-13,1,4.2
+207,Eve,Harris,alex.clark@company.com,41,49421.21,HR,2019-01-22,1,3.5
+208,Jack,Thomas,diana.thomas@firm.co,41,58698.07,Marketing,2016-11-08,No,3.0
+209,Diana,Jones,zoe.martin@business.org,30,102511.43,Marketing,2016-04-12,0,1.2
+210,Uma,Taylor,charlie.sanchez@business.org,60,97381.37,Marketing,2023-07-15,Yes,4.7
+211,Olivia,Martin,noah.hernandez@corp.com,25,45634.64,Engineering,2019-04-13,0,3.5
+212,Tara,Thomas,kate.brown@firm.co,40,81004.51,Finance,2024-04-17,No,1.8
+213,  Olivia  ,Thompson,rachel.jones@enterprise.net,59,30371.37,Marketing,2018-07-24,1,3.4
+214,Ivy,Lee,alex.sanchez@business.org,48,56053.15,Sales,2020-01-01,1,3.7
+215,Wendy,Lopez,yara.johnson@firm.co,64,46448.71,Operations,2022-11-01,FALSE,3.1
+216,  Tara  ,Garcia,frank.hernandez@company.com,34,86385.59,Finance,2021-09-21,No,3.9
+217,Peter,Gonzalez,diana.rodriguez@business.org,34,39185.65,Finance,2020-12-26,No,3.3
+218,Grace,Thomas,yara.wilson@business.org,43,73587.0,Operations,2020-04-23,Yes,4.8
+219,Kate,Thomas,wendy.lopez@firm.co,49,65014.2,Engineering,2017-07-31,Yes,1.2
+220,Alice,Jones,frank.anderson@business.org,43,61491.02,Operations,2018-09-29,FALSE,1.4
+221,  Eve  ,Garcia,drew.jackson@company.com,64,98431.66,Engineering,2020-09-20,TRUE,1.7
+222,Bob,Miller,eve.brown@firm.co,40,100193.94,HR,2023-08-16,0,3.8
+223,Rachel,Davis	,maya.harris@business.org,29,62112.14,HR,2022-12-25,TRUE,3.6
+224,  Alice  ,Johnson,alice.thomas@company.com,29,58081.67,Engineering,2024-03-01,TRUE,4.6
+225,Frank,Wilson,alice.smith@business.org,63,34862.53,Engineering,2016-10-08,No,3.9
+226,Diana,Harris,drew.williams@firm.co,47,64914.82,Finance,2025-03-19,0,3.0
+227,Jack,Smith,casey.martinez@corp.com,47,104066.07,Finance,2025-01-11,No,5.0
+228,Ivy,Rodriguez,wendy.sanchez@corp.com,44,62425.29,Engineering,2024-04-11,0,2.1
+229,Eve,Wilson,invalid.email,64,79575.19,Finance,2022-03-19,1,4.3
+230,Wendy,Davis,eve.lee@enterprise.net,34,37050.05,Engineering,2019-02-25,No,2.7
+231,Olivia,White,quinn.anderson@corp.com,49,56304.5,Finance,2020-10-26,No,3.6
+232,Xander,Perez,henry.garcia@firm.co,30,74249.31,Engineering,2019-12-15,No,3.9
+233,Alice,Miller,wendy.johnson@firm.co,41,67117.25,Sales,2018-05-26,FALSE,3.5
+234,Henry,Harris,frank.thompson@corp.com,40,81493.35,Operations,2017-04-01,No,1.6
+235,Charlie,Miller,tara.williams@enterprise.net,60,52946.56,Engineering,2021-09-11,Yes,2.8
+236,Eve,Williams,liam.wilson@company.com,33,30000.23,Sales,2022-03-21,Yes,3.2
+237,Alice,Garcia,rachel.davis@business.org,36,87441.8,Marketing,2019-03-01,0,4.4
+238,Peter,Anderson,diana.taylor@company.com,52,46277.01,Sales,2019-08-22,1,2.8
+239,Grace,Martin,tara.lopez@firm.co,35,75132.08,Operations,2017-01-04,FALSE,4.7
+240,Kate,Thomas,quinn.davis@corp.com,32,74017.14,Marketing,2024-01-28,0,2.8
+241,Noah,Thompson	,yara.lee@business.org,47,31724.94,Operations,2024-01-21,Yes,3.2
+242,,Hernandez,ivy.johnson@business.org,63,85982.51,HR,2020-06-10,FALSE,4.2
+243,Zoe,Anderson,diana.sanchez@business.org,48,53668.66,Finance,2022-03-31,FALSE,3.3
+244,  Zoe  ,Davis,victor.thomas@corp.com,32,66101.09,HR,2018-12-10,1,4.8
+245,  Peter  ,Wilson,,59,57836.35,Operations,2021-11-11,FALSE,3.6
+246,  Liam  ,Gonzalez,bob.lee@enterprise.net,55,97451.83,Engineering,2022-06-11,No,3.1
+247,Olivia,Harris,jack.miller@corp.com,64,91869.8,Sales,2021-07-28,FALSE,1.1
+248,    ,Johnson,,40,28753.31,Operations,2025-08-13,1,2.7
+249,Zoe,Martin,zoe.harris@corp.com,27,110176.54,Marketing,2019-11-26,0,2.2
+250,Bob,White,bob.brown@company.com,59,51433.87,Marketing,2019-02-17,1,4.0
+251,Kate,Clark,drew.moore@business.org,63,107048.73,Sales,2018-05-02,1,1.8
+252,Charlie,Gonzalez,frank.sanchez@company.com,49,59875.81,Engineering,2018-02-06,Yes,1.8
+253,  Alex  ,White,peter.taylor@company.com,22,58181.67,Sales,2024-02-01,No,1.8
+254,Yara,Hernandez	,charlie.davis@corp.com,56,60053.45,HR,2025-01-24,Yes,1.5
+255,Eve,Gonzalez,sam.jackson@enterprise.net,61,56984.21,HR,2023-01-17,0,2.2
+256,Bob,Martin,noah.miller@enterprise.net,29,115487.93,Engineering,2020-01-08,TRUE,4.5
+257,Ivy,White,henry.harris@company.com,28,63472.74,Sales,2016-07-09,0,4.1
+258,Yara,Jackson,kate.davis@company.com,32,58954.07,HR,2016-05-05,No,3.9
+259,Maya,Martin	,henry.white@corp.com,60,66540.22,Marketing,2019-06-08,FALSE,4.2
+260,Charlie,Moore,blake.miller@corp.com,25,45653.3,Marketing,2016-01-29,1,2.1
+261,Rachel,Taylor,casey.davis@company.com,46,96942.41,Finance,2025-02-04,TRUE,4.5
+262,Peter,Lee,peter.jackson@corp.com,33,35578.38,Sales,2020-12-22,No,1.5
+263,Frank,Thompson,bob.wilson@business.org,47,52719.83,Engineering,2021-11-07,Yes,2.3
+264,Grace,Sanchez	,,59,83733.21,Marketing,2023-07-08,1,3.3
+265,Casey,Johnson,frank.gonzalez@enterprise.net,33,65847.04,Marketing,2023-06-18,0,1.4
+266,Alex,Taylor,eve.anderson@business.org,64,75984.3,Operations,2018-07-11,Yes,3.9
+267,Ivy,Brown,uma.lopez@enterprise.net,58,95663.28,HR,2023-06-14,No,2.5
+268,Alex,Anderson,grace.hernandez@business.org,45,85076.03,Marketing,2016-11-25,No,4.1
+269,Maya,Anderson,bob.thompson@firm.co,37,67749.53,Operations,2024-12-09,0,3.0
+270,Alex,Clark	,bob.rodriguez@business.org,34,106786.85,Operations,2021-11-17,TRUE,1.7
+271,Alice,Johnson,diana.anderson@corp.com,46,52433.28,Sales,2023-08-02,0,3.9
+272,Diana,Davis,noah.garcia@enterprise.net,25,62993.81,Sales,2018-03-21,FALSE,2.0
+273,Yara,Taylor,henry.martinez@firm.co,32,64391.19,Finance,2020-05-16,Yes,3.0
+274,Wendy,Moore,frank.sanchez@firm.co,53,62951.56,HR,2017-12-01,TRUE,1.3
+275,Henry,Gonzalez,casey.garcia@firm.co,28,43615.79,Sales,2017-12-13,1,3.5
+276,  Maya  ,White	,rachel.davis@company.com,32,33327.0,Sales,2020-06-19,FALSE,3.7
+277,Yara,Johnson,noah.taylor@corp.com,49,73344.03,HR,2018-12-25,TRUE,2.5
+278,Olivia,Moore,blake.miller@firm.co,62,52330.52,HR,2017-12-10,Yes,4.8
+279,Henry,Gonzalez,peter.clark@corp.com,44,103156.18,HR,2021-12-29,No,4.5
+280,  Xander  ,Taylor,ivy.smith@corp.com,44,63549.15,HR,2016-02-26,1,3.8
+281,Bob,Harris,xander.davis@business.org,49,59970.21,Finance,2019-03-22,0,3.9
+282,Grace,Lee,kate.wilson@firm.co,64,86886.8,Operations,2019-05-12,Yes,2.0
+283,Olivia,Johnson	,henry.jackson@business.org,47,73043.85,Marketing,2021-12-11,FALSE,3.6
+284,,Miller,,46,61489.65,Engineering,2018-10-19,FALSE,1.8
+285,Yara,Martinez,invalid.email,50,52185.37,HR,2022-05-07,No,1.6
+286,Diana,Anderson,peter.white@firm.co,40,138154.04,Sales,2021-01-05,No,5.0
+287,Quinn,Gonzalez,bob.wilson@firm.co,54,72235.72,Engineering,2022-01-08,1,3.5
+288,Victor,Martinez,invalid.email,57,86688.59,Operations,2023-11-21,0,2.7
+289,Grace,Harris,olivia.thomas@business.org,35,44541.09,Finance,2024-07-13,1,2.2
+290,Peter,Clark	,charlie.moore@company.com,35,53440.29,Engineering,2020-08-12,No,3.4
+291,Maya,Martinez,,56,107246.92,Engineering,2015-11-19,No,1.2
+292,Victor,Anderson,grace.jones@enterprise.net,51,92938.62,Marketing,2016-11-09,FALSE,1.4
+293,Jack,Garcia,jack.davis@company.com,49,74152.44,Marketing,2025-03-27,No,1.1
+294,Drew,Wilson	,alice.thomas@enterprise.net,38,57368.58,HR,2020-02-23,TRUE,3.0
+295,Kate,Martinez,frank.thompson@corp.com,24,60319.28,Sales,2023-04-01,Yes,3.4
+296,Frank,Martin,blake.jackson@firm.co,37,51477.79,HR,2025-08-31,No,1.2
+297,Uma,Johnson,alice.anderson@corp.com,51,41863.01,Engineering,2018-07-18,1,3.9
+298,Xander,Thompson,yara.jones@corp.com,50,83476.88,HR,2023-03-17,0,1.9
+299,Bob,Taylor,frank.sanchez@enterprise.net,36,75776.62,Engineering,2017-12-07,0,3.7
+300,Xander,Jones,uma.anderson@company.com,46,79721.58,Operations,2023-02-15,0,4.9
+301,Drew,Anderson,blake.lee@company.com,59,58262.04,Operations,2020-06-23,TRUE,3.8
+302,Rachel,Clark,maya.thompson@enterprise.net,63,70112.78,Sales,2018-09-17,1,4.5
+303,Quinn,Lee,quinn.johnson@enterprise.net,59,56359.12,Finance,2023-04-26,TRUE,4.8
+304,Diana,Anderson,noah.harris@enterprise.net,44,50453.84,Engineering,2023-01-10,No,2.9
+305,  Ivy  ,Williams,wendy.martin@firm.co,46,98341.25,Operations,2020-04-25,Yes,3.8
+306,  Peter  ,White,sam.sanchez@business.org,63,67430.15,Operations,2017-06-21,0,4.4
+307,Uma,Taylor,zoe.perez@company.com,28,75149.09,Operations,2017-02-02,1,2.4
+308,  Jack  ,Brown,tara.hernandez@company.com,43,81715.08,Finance,2016-07-28,0,2.0
+309,Grace,Garcia	,quinn.perez@enterprise.net,38,67680.82,Marketing,2021-12-28,TRUE,4.8
+310,Liam,Harris,casey.johnson@company.com,39,69812.65,HR,2016-08-27,FALSE,3.9
+311,Casey,Jackson,maya.lopez@corp.com,62,43267.5,HR,2017-05-29,No,1.9
+312,Bob,Thompson,tara.johnson@enterprise.net,31,47077.7,Operations,2021-06-29,Yes,2.8
+313,Blake,Moore,liam.garcia@firm.co,31,46043.7,Operations,2023-05-29,No,4.2
+314,Victor,Jones,wendy.williams@firm.co,28,77109.17,Finance,2021-03-21,FALSE,3.2
+315,Grace,Gonzalez,wendy.harris@business.org,59,66417.81,Marketing,2023-08-23,Yes,3.6
+316,Diana,Wilson,eve.hernandez@business.org,48,47079.37,Operations,2016-06-11,FALSE,4.0
+317,Henry,Hernandez,rachel.brown@corp.com,54,76601.98,Operations,2025-08-19,No,3.5
+318,Uma,Anderson,xander.harris@firm.co,22,75869.13,Marketing,2021-08-21,TRUE,3.2
+319,Noah,Smith,blake.thompson@business.org,55,51100.68,Marketing,2025-08-06,No,4.0
+320,Kate,Garcia,invalid.email,25,64443.45,Engineering,2024-11-17,No,3.9
+321,Alice,Anderson,kate.lopez@enterprise.net,38,75942.83,Marketing,2021-09-11,No,3.5
+322,  Frank  ,Jackson,quinn.perez@corp.com,25,47832.89,Finance,2025-05-16,1,2.4
+323,Zoe,Thompson,ivy.johnson@company.com,64,76324.54,Finance,2019-06-27,FALSE,2.6
+324,Ivy,Miller,liam.lopez@corp.com,47,71020.47,Sales,2024-06-01,FALSE,4.9
+325,Sam,Anderson,peter.taylor@firm.co,25,45016.01,Operations,2024-02-10,0,1.4
+326,Diana,Williams	,alex.brown@corp.com,22,69395.93,HR,2022-06-13,FALSE,2.1
+327,Maya,Rodriguez	,wendy.moore@firm.co,28,72312.97,HR,2020-10-08,0,3.0
+328,Zoe,Hernandez,casey.martinez@corp.com,51,52479.98,Operations,2023-07-12,1,4.3
+329,Henry,Thompson,tara.lopez@company.com,30,54054.33,Sales,2018-08-18,TRUE,1.7
+330,Alice,Lee,grace.anderson@company.com,56,44831.6,Finance,2019-02-21,0,2.1
+331,Bob,Thompson	,charlie.gonzalez@business.org,29,56020.02,Finance,2017-02-14,No,1.3
+332,Sam,Sanchez,jack.williams@company.com,45,64758.36,Finance,2021-09-02,TRUE,3.8
+333,Zoe,Garcia,frank.rodriguez@company.com,40,54109.56,Operations,2025-03-20,1,2.0
+334,Wendy,Thompson,wendy.jones@corp.com,57,35302.24,HR,2025-05-17,FALSE,2.6
+335,Peter,White,eve.miller@firm.co,64,51228.24,Operations,2023-06-23,0,2.8
+336,Wendy,Brown,uma.smith@enterprise.net,48,56654.16,Marketing,2023-06-28,No,4.6
+337,Tara,Williams,noah.perez@firm.co,53,81336.77,Operations,2022-07-10,Yes,2.6
+338,Eve,Brown,drew.jones@corp.com,35,76895.3,HR,2023-10-03,Yes,1.6
+339,Liam,Thompson,liam.wilson@corp.com,39,81724.42,Sales,2023-04-03,TRUE,3.1
+340,Yara,Anderson,xander.lee@company.com,49,50219.62,Marketing,2022-10-08,FALSE,4.9
+341,Charlie,Lee,jack.miller@company.com,50,67831.02,Engineering,2017-08-24,Yes,3.4
+342,Henry,Lopez,alice.sanchez@business.org,37,16539.07,Engineering,2023-10-03,TRUE,4.9
+343,  Frank  ,Williams,alex.taylor@enterprise.net,56,73578.41,Finance,2021-11-24,1,4.4
+344,Peter,Taylor,noah.jackson@enterprise.net,52,77217.95,Marketing,2016-03-15,TRUE,1.1
+345,  Charlie  ,Thompson,uma.lee@enterprise.net,25,57967.5,HR,2019-06-28,TRUE,3.6
+346,Victor,Gonzalez,peter.jackson@firm.co,58,70908.6,Operations,2022-12-13,TRUE,2.1
+347,Tara,White,alex.moore@corp.com,38,34701.51,Operations,2023-09-15,No,3.2
+348,  Kate  ,Sanchez,olivia.martinez@firm.co,60,48978.66,Operations,2023-07-06,TRUE,2.1
+349,Drew,Taylor,eve.sanchez@enterprise.net,47,80308.98,Sales,2025-06-19,0,2.4
+350,Yara,Martin,frank.sanchez@enterprise.net,60,75225.07,Finance,2023-09-25,TRUE,4.7
+351,Uma,Garcia,henry.thomas@enterprise.net,62,56762.91,Finance,2016-04-03,No,1.8
+352,Bob,Gonzalez,jack.harris@company.com,25,81227.25,Marketing,2022-10-09,No,4.5
+353,Bob,Moore,eve.lopez@enterprise.net,51,67765.96,Sales,2024-07-28,1,1.1
+354,Liam,Gonzalez,olivia.garcia@firm.co,51,54915.58,Engineering,2025-06-22,FALSE,1.4
+355,Uma,Johnson,drew.garcia@firm.co,43,61343.45,Finance,2016-05-20,Yes,4.4
+356,Eve,Harris,jack.garcia@business.org,32,55891.65,Finance,2018-02-10,Yes,3.5
+357,Wendy,Garcia,alex.thompson@business.org,23,41324.48,Marketing,2024-03-02,TRUE,4.0
+358,Rachel,Hernandez,frank.davis@company.com,33,90133.72,Finance,2021-06-16,1,1.8
+359,Zoe,Jackson,bob.hernandez@firm.co,51,53639.51,Marketing,2018-05-13,TRUE,3.1
+360,Diana,Perez,eve.anderson@enterprise.net,57,48352.79,Operations,2016-11-16,Yes,3.9
+361,Eve,Jones,liam.garcia@business.org,39,34413.03,Sales,2024-06-18,No,3.5
+362,Peter,Garcia	,rachel.thompson@company.com,47,12280.64,Engineering,2021-11-29,FALSE,2.9
+363,Henry,Jones,victor.hernandez@enterprise.net,28,79029.94,Engineering,2023-05-08,1,4.8
+364,Kate,Garcia,eve.lopez@corp.com,22,80872.17,Finance,2022-04-15,No,3.7
+365,Rachel,Harris,rachel.garcia@firm.co,47,88860.77,Finance,2020-08-04,FALSE,4.6
+366,  Zoe  ,Thompson,jack.brown@company.com,44,62019.21,Marketing,2023-01-06,1,3.9
+367,Uma,Johnson,maya.thomas@business.org,47,58560.15,Sales,2021-07-24,1,3.9
+368,Yara,Wilson,olivia.hernandez@business.org,27,54845.54,Marketing,2016-08-18,Yes,1.3
+369,,Martinez	,,27,56668.85,Operations,2021-07-13,No,2.4
+370,Zoe,Martinez,quinn.hernandez@enterprise.net,29,87395.81,HR,2018-04-18,1,4.4
+371,    ,White,peter.martinez@firm.co,45,64469.7,Finance,2023-10-15,0,1.9
+372,Olivia,Harris,victor.jones@firm.co,43,72561.42,Engineering,2019-10-19,1,1.5
+373,Xander,Anderson,xander.anderson@enterprise.net,40,56159.86,Operations,2016-09-30,FALSE,2.3
+374,Grace,Martinez,wendy.brown@corp.com,58,91416.96,Engineering,2018-09-20,Yes,1.9
+375,Alice,Lee,casey.johnson@business.org,39,26905.22,Marketing,2015-10-27,TRUE,4.7
+376,Wendy,Garcia,victor.moore@company.com,52,40589.52,Marketing,2020-11-04,Yes,4.5
+377,Maya,Brown,jack.smith@corp.com,58,72594.21,Operations,2015-11-10,TRUE,3.0
+378,Liam,Jones,tara.clark@business.org,51,100012.22,Finance,2017-09-25,No,1.2
+379,Xander,Miller,olivia.lopez@company.com,63,60498.0,Marketing,2024-12-22,No,3.9
+380,  Eve  ,Smith,kate.johnson@firm.co,54,48152.58,Engineering,2024-05-18,1,3.5
+381,Ivy,Martin,uma.miller@firm.co,31,85013.25,Engineering,2024-02-02,0,4.9
+382,Casey,Harris,quinn.davis@enterprise.net,58,71473.97,Operations,2015-10-23,No,3.2
+383,Bob,Rodriguez,grace.smith@company.com,33,90804.28,Engineering,2024-03-29,1,2.3
+384,Peter,Smith,rachel.anderson@company.com,51,39192.98,HR,2016-10-17,Yes,3.1
+385,,Anderson,quinn.gonzalez@business.org,48,89233.37,Marketing,2023-08-01,No,4.9
+386,Olivia,Thomas,peter.hernandez@firm.co,60,34030.85,Finance,2023-07-23,Yes,3.8
+387,Rachel,Thomas,tara.taylor@company.com,30,59236.56,Operations,2019-09-26,Yes,3.7
+388,Jack,Moore	,drew.perez@enterprise.net,42,73255.66,Engineering,2021-06-19,0,2.0
+389,Rachel,Sanchez,maya.jones@corp.com,33,68720.27,HR,2017-12-02,No,4.0
+390,Wendy,Smith,liam.gonzalez@enterprise.net,50,86211.85,Marketing,2021-07-06,Yes,4.0
+391,  Peter  ,Martin,alice.martinez@enterprise.net,54,28466.8,Sales,2022-02-21,0,2.3
+392,Grace,Thomas,liam.martinez@corp.com,64,67820.15,Operations,2018-12-26,0,2.9
+393,Sam,Davis,blake.moore@company.com,36,88992.84,Finance,2020-11-21,No,2.2
+394,Frank,Miller,grace.white@corp.com,23,66185.88,Finance,2018-07-29,0,2.0
+395,Rachel,Jackson,xander.wilson@corp.com,60,42153.21,Operations,2022-12-19,No,1.1
+396,Liam,Perez,jack.garcia@corp.com,39,85150.15,Operations,2025-03-10,No,2.1
+397,Kate,Thomas,xander.wilson@business.org,24,52033.79,Operations,2017-02-24,TRUE,3.2
+398,Xander,Anderson,alex.jackson@firm.co,28,48513.54,Finance,2018-10-19,Yes,1.0
+399,Olivia,Wilson,charlie.jones@business.org,64,45997.28,Finance,2019-02-14,FALSE,2.1
+400,Ivy,Anderson,jack.thomas@firm.co,39,61026.3,Sales,2023-08-03,No,4.5
+401,Blake,Williams,kate.williams@firm.co,59,68661.2,Marketing,2016-02-16,Yes,3.4
+402,Alex,Martin,invalid.email,58,39618.0,Marketing,2019-09-14,0,3.4
+403,Tara,Martin,alice.wilson@enterprise.net,54,43727.08,Marketing,2022-05-30,1,2.6
+404,Drew,Smith,noah.garcia@firm.co,52,51110.34,Operations,2016-11-07,No,3.7
+405,Blake,Davis,olivia.thompson@firm.co,32,45900.23,Operations,2024-01-16,0,1.8
+400,Ivy,Anderson,jack.thomas@firm.co,25,65735.16,Finance,2022-01-12,0,4.3
+407,Frank,Rodriguez,frank.clark@corp.com,39,72224.43,Operations,2022-12-08,0,1.5
+408,Charlie,Martin,jack.moore@corp.com,25,69477.48,Sales,2025-02-09,0,3.6
+409,Quinn,Lee,bob.clark@enterprise.net,55,69506.64,Operations,2018-08-25,0,2.4
+410,Eve,Moore,alex.jackson@enterprise.net,50,98419.83,HR,2016-10-14,No,4.0
+411,Olivia,Clark,peter.moore@corp.com,45,73473.67,Finance,2022-07-26,FALSE,3.2
+412,Jack,Clark,henry.smith@company.com,43,80679.28,Operations,2015-12-02,TRUE,2.8
+413,  Alex  ,Miller	,eve.rodriguez@enterprise.net,23,56707.69,Sales,2024-04-16,0,1.7
+207,Eve,Harris,alex.clark@company.com,27,83880.12,Engineering,2016-02-28,0,3.5
+415,    ,Garcia,diana.lee@enterprise.net,63,55752.95,Marketing,2020-01-04,TRUE,4.9
+416,Liam,Jones,noah.garcia@corp.com,46,73228.97,Finance,2019-02-27,No,4.3
+417,Olivia,Johnson,drew.thompson@business.org,42,37572.66,Finance,2020-03-23,Yes,1.2
+418,Alice,Lee,alice.brown@enterprise.net,37,68324.68,Sales,2023-05-12,1,2.5
+419,Yara,Lopez	,peter.williams@firm.co,52,45492.4,Marketing,2017-07-20,1,4.7
+420,Uma,Johnson,xander.lopez@firm.co,35,83720.71,HR,2024-10-17,Yes,3.0
+421,Quinn,Jones,peter.jackson@corp.com,60,82517.53,Engineering,2016-11-28,No,3.6
+422,  Maya  ,Johnson,blake.rodriguez@corp.com,49,55667.45,Sales,2020-06-06,1,4.7
+423,Xander,Perez,wendy.clark@company.com,53,105991.5,Operations,2016-11-02,TRUE,4.5
+424,Frank,Jackson,liam.taylor@firm.co,49,59282.43,HR,2018-04-08,Yes,3.0
+425,Casey,Clark,alice.rodriguez@business.org,30,32759.62,HR,2018-10-24,FALSE,2.8
+426,Alice,Martin,sam.johnson@business.org,43,49417.64,Engineering,2024-12-24,No,2.4
+427,Tara,Martinez	,kate.anderson@business.org,53,44117.18,Engineering,2023-10-31,Yes,3.9
+339,  Liam  ,Thompson,liam.wilson@corp.com,26,72592.04,Engineering,2020-01-02,1,2.1
+429,Liam,Williams,ivy.lopez@corp.com,44,40292.74,HR,2021-05-10,No,2.0
+182,Ivy,White	,victor.miller@enterprise.net,26,54215.72,Sales,2017-04-13,TRUE,2.4
+431,Tara,Brown,jack.martinez@firm.co,63,71291.04,HR,2015-10-24,No,1.7
+432,Henry,Wilson,invalid.email,53,67772.92,Sales,2018-06-22,No,3.8
+433,Kate,Garcia,grace.harris@business.org,31,64747.12,HR,2017-04-14,TRUE,3.5
+434,Xander,Garcia,invalid.email,60,67520.01,Engineering,2019-12-31,0,2.9
+435,Charlie,Perez,yara.garcia@firm.co,36,57590.0,Marketing,2021-07-06,TRUE,2.6
+436,Victor,Martinez,kate.hernandez@enterprise.net,28,32924.96,Operations,2020-02-12,No,4.6
+437,Rachel,Martin,ivy.perez@enterprise.net,50,57063.24,Finance,2019-11-21,TRUE,1.1
+438,Alex,Perez	,diana.moore@firm.co,24,74375.0,HR,2020-07-02,0,4.1
+439,Maya,Thompson,liam.clark@business.org,40,62261.3,Finance,2023-09-13,Yes,4.6
+218,Grace,Thomas	,yara.wilson@business.org,31,72829.77,Finance,2022-02-05,TRUE,2.8
+441,  Quinn  ,Martin,jack.lopez@corp.com,49,53264.34,Finance,2017-09-19,TRUE,3.2
+442,Victor,Jackson,noah.hernandez@business.org,50,84886.72,HR,2021-07-07,No,4.8
+443,Peter,Sanchez,diana.miller@business.org,36,13873.64,Marketing,2019-10-25,Yes,1.8
+444,Yara,Moore,quinn.davis@business.org,56,67828.81,Finance,2017-12-02,FALSE,3.1
+256,Bob,Martin,noah.miller@enterprise.net,27,91977.61,HR,2020-04-15,FALSE,2.9
+446,Eve,Anderson,wendy.clark@firm.co,33,94953.97,Operations,2017-09-06,1,2.0
+447,Tara,White,blake.moore@firm.co,59,60363.48,HR,2020-02-28,TRUE,4.3
+448,,Jackson,wendy.harris@company.com,34,,HR,2020-05-24,TRUE,4.6
+449,Kate,Lopez,noah.anderson@company.com,50,92329.46,Operations,2022-09-12,Yes,4.1
+291,Maya,Martinez,,40,,HR,2019-03-11,0,1.8
+451,Uma,Williams,drew.smith@corp.com,24,61820.61,Operations,2021-03-18,FALSE,1.3
+452,Kate,Harris,liam.martinez@enterprise.net,29,47142.91,HR,2018-07-21,1,3.4
+34,Xander,White,olivia.miller@business.org,29,40002.25,Sales,2016-11-03,Yes,1.2
+454,Diana,Hernandez,casey.martin@firm.co,41,76277.26,Sales,2019-02-28,TRUE,3.7
+455,Quinn,Lopez,yara.hernandez@business.org,25,78397.43,Finance,2018-06-03,FALSE,3.1
+456,Victor,Gonzalez,wendy.martinez@company.com,42,69030.88,Sales,2025-04-19,1,3.7
+457,Charlie,Clark,invalid.email,24,49719.08,HR,2023-05-21,No,3.4
+458,Bob,Williams,henry.jones@business.org,29,43700.02,Operations,2023-03-31,FALSE,2.7
+459,Alex,Harris,wendy.davis@enterprise.net,44,36355.03,HR,2023-06-07,1,1.8
+460,Eve,Wilson,eve.miller@business.org,37,53789.1,Sales,2020-08-21,Yes,2.2
+461,Frank,Clark,charlie.wilson@company.com,34,44882.93,Operations,2016-01-11,No,3.1
+462,Blake,Moore,charlie.smith@corp.com,24,30813.81,Finance,2023-01-29,1,3.6
+463,Bob,Williams,yara.wilson@company.com,30,78026.9,Finance,2021-04-08,1,4.1
+464,Grace,Martinez,grace.brown@company.com,35,38618.72,Engineering,2023-04-04,TRUE,4.1
+465,Diana,Thomas	,zoe.perez@firm.co,34,84678.45,Operations,2022-04-11,0,4.9
+466,Peter,Jones,sam.johnson@corp.com,28,72881.43,Sales,2020-12-10,FALSE,2.1
+467,Grace,Brown,diana.rodriguez@company.com,36,70886.82,HR,2021-06-24,TRUE,1.3
+468,Diana,Thompson	,charlie.martinez@company.com,28,98306.18,HR,2019-04-20,No,2.4
+290,Peter,Clark,charlie.moore@company.com,59,39283.95,Engineering,2023-12-12,0,4.0
+470,Sam,Hernandez,drew.martin@business.org,55,82475.44,Operations,2016-04-05,1,2.8
+471,Uma,Taylor,sam.miller@business.org,62,59047.15,Sales,2021-07-06,TRUE,4.3
+472,Alex,Wilson,victor.lopez@company.com,43,116421.4,Finance,2022-11-08,0,3.2
+473,Maya,Taylor,charlie.jones@enterprise.net,45,57384.11,Marketing,2019-07-14,FALSE,4.7
+474,Victor,Miller,sam.lopez@enterprise.net,58,54153.83,Engineering,2024-10-03,No,4.8
+113,Uma,Moore,bob.garcia@corp.com,22,73510.72,Finance,2024-03-14,Yes,1.3
+476,Quinn,Miller,henry.taylor@firm.co,31,60821.83,HR,2017-04-12,TRUE,2.8
+477,Tara,Martin,charlie.brown@firm.co,64,49830.74,Engineering,2024-10-06,No,3.4
+478,Wendy,Johnson,yara.smith@firm.co,37,45594.46,Engineering,2022-05-26,Yes,2.0
+479,Sam,Brown,grace.thompson@business.org,29,94164.09,Marketing,2020-09-21,TRUE,2.6
+480,Ivy,Jackson,jack.garcia@firm.co,46,41730.77,Finance,2019-11-21,No,3.7
+481,Bob,White,alice.white@company.com,33,69461.75,Marketing,2021-10-06,No,1.9
+482,  Liam  ,Lee,drew.miller@firm.co,46,86123.68,Engineering,2023-02-16,0,3.4
+483,Henry,Taylor,blake.thompson@corp.com,38,87089.9,Finance,2019-02-28,TRUE,3.8
+484,Tara,Williams,liam.thompson@firm.co,47,52966.95,Sales,2025-03-31,No,1.4
+485,Wendy,Thomas,frank.anderson@company.com,35,60876.3,Engineering,2020-06-28,1,3.0
+486,Charlie,White	,frank.clark@enterprise.net,62,56996.13,Marketing,2019-12-18,TRUE,2.1
+487,Alice,Thompson,maya.wilson@business.org,57,34299.62,Marketing,2018-09-28,No,3.9
+488,Drew,Martin,quinn.davis@corp.com,44,75750.35,Marketing,2021-12-08,0,1.8
+489,Drew,Sanchez,diana.harris@enterprise.net,64,65770.07,Marketing,2020-12-05,Yes,4.6
+63,Alice,Perez,maya.lopez@business.org,27,93811.7,Marketing,2020-08-25,Yes,2.7
+491,Uma,Martinez,quinn.jones@corp.com,26,48535.9,HR,2020-06-18,1,1.8
+492,Peter,Wilson	,yara.lopez@enterprise.net,64,86773.93,Engineering,2020-11-09,TRUE,2.8
+493,Drew,Martin	,rachel.white@company.com,46,88184.68,Sales,2021-02-13,0,2.6
+494,Casey,Hernandez,,39,65941.43,Sales,2021-08-02,No,2.7
+495,Alex,Rodriguez,diana.gonzalez@enterprise.net,34,21582.77,Finance,2016-09-07,No,3.3
+496,Charlie,Taylor,olivia.martin@enterprise.net,64,54748.65,HR,2020-02-17,Yes,3.1
+497,Olivia,Jackson,victor.clark@corp.com,35,100717.42,Engineering,2022-02-25,0,1.6
+498,Zoe,Martin,henry.moore@corp.com,49,70941.12,Marketing,2022-08-24,1,1.3
+250,Bob,White,bob.brown@company.com,39,78867.99,Marketing,2021-06-02,Yes,3.9
+500,Bob,Jones,blake.williams@corp.com,49,63216.67,Sales,2025-06-06,Yes,3.2
+501,Liam,Martin	,victor.lopez@business.org,48,60531.14,Sales,2023-09-11,1,2.4
+502,Rachel,Jackson,alice.perez@corp.com,53,27653.11,Operations,2020-10-02,TRUE,4.2
+503,Xander,Thomas,victor.brown@corp.com,30,80894.78,HR,2023-02-01,No,2.6
+348,  Kate  ,Sanchez,olivia.martinez@firm.co,61,86593.62,Engineering,2022-09-24,TRUE,4.2
+505,Noah,White,diana.jones@corp.com,53,45982.75,Engineering,2018-06-21,0,2.2
+506,Alex,Lee	,invalid.email,41,61422.9,Finance,2024-11-09,FALSE,1.3
+507,Liam,Thomas,diana.white@business.org,49,58725.17,Marketing,2021-09-06,FALSE,4.7
+508,Zoe,Thomas,charlie.lopez@business.org,54,73403.07,Engineering,2024-10-13,FALSE,2.6
+509,Wendy,Sanchez	,kate.miller@firm.co,25,54112.73,Engineering,2022-05-28,1,4.2
+510,Bob,Garcia,invalid.email,55,83626.82,HR,2016-04-04,Yes,2.1
+511,Alex,Martin,henry.clark@corp.com,24,66426.49,HR,2020-01-30,TRUE,3.6
+512,Tara,Davis,xander.thomas@enterprise.net,47,14011.54,Finance,2019-12-16,No,4.5
+181,Henry,Lee,rachel.johnson@corp.com,29,73854.41,Marketing,2019-07-30,FALSE,1.2
+514,Quinn,Martinez,sam.rodriguez@corp.com,27,84927.02,Finance,2018-06-28,TRUE,4.3
+515,Bob,Miller	,liam.thomas@firm.co,37,41958.77,HR,2024-10-30,FALSE,3.3
+516,Xander,Smith,maya.thomas@firm.co,45,73174.54,Marketing,2016-11-23,FALSE,3.4
+517,Charlie,Brown,ivy.jones@corp.com,60,101599.19,HR,2022-08-10,No,3.1
+518,Alex,Smith	,diana.brown@enterprise.net,51,67241.33,HR,2023-02-26,0,4.5
+519,Jack,Anderson	,peter.thomas@business.org,34,87832.58,Operations,2024-08-08,0,1.2
+520,Charlie,Lee,uma.jones@company.com,26,56156.9,Finance,2024-05-18,0,2.0
+521,  Grace  ,Sanchez	,diana.white@company.com,46,64640.71,Sales,2024-11-27,1,4.5
+522,Quinn,Brown,alex.williams@corp.com,41,60907.57,Sales,2021-09-01,Yes,4.0
+174,Frank,Hernandez,drew.lopez@enterprise.net,39,57257.59,Finance,2025-04-12,1,1.1
+277,Yara,Johnson,noah.taylor@corp.com,39,62045.56,Operations,2019-08-02,TRUE,3.1
+525,Xander,Sanchez,eve.martinez@firm.co,23,32386.36,HR,2023-06-18,1,3.1
+526,Henry,Martin,tara.brown@company.com,31,58382.4,HR,2021-12-18,TRUE,2.6
+527,Rachel,Wilson,victor.harris@firm.co,33,91756.13,Operations,2023-07-03,TRUE,2.2
+528,Maya,Wilson,yara.thomas@corp.com,34,45726.2,HR,2018-02-19,Yes,3.7
+529,Grace,Johnson	,grace.martinez@corp.com,32,43677.33,Sales,2022-01-06,No,1.8
+530,Grace,Hernandez,peter.taylor@enterprise.net,40,66224.25,Operations,2022-11-26,Yes,4.2
+531,Quinn,Lopez	,,56,,Marketing,2022-04-25,0,4.2
+532,Victor,Moore,rachel.smith@company.com,60,72549.29,Engineering,2017-05-08,0,2.7
+533,  Henry  ,Sanchez,noah.brown@corp.com,47,62725.23,Finance,2016-07-24,1,2.1
+534,Sam,Lee,olivia.hernandez@corp.com,35,66437.28,Operations,2017-02-02,TRUE,2.1
+535,Uma,Miller,olivia.anderson@company.com,45,57982.3,Finance,2018-01-16,FALSE,2.9
+536,Frank,Smith,bob.garcia@firm.co,62,39484.08,HR,2016-03-24,FALSE,3.9
+537,Rachel,Lee,victor.harris@enterprise.net,22,63572.16,HR,2022-08-18,TRUE,2.4
+538,Xander,Miller,invalid.email,64,79491.94,Sales,2023-07-28,Yes,3.4
+539,Rachel,Thompson,peter.wilson@business.org,43,75301.09,HR,2017-10-17,No,2.5
+540,Noah,Martinez,jack.thompson@corp.com,44,30115.16,Marketing,2018-12-07,Yes,2.2
+541,Xander,Rodriguez,peter.harris@company.com,40,70038.51,Finance,2024-02-29,TRUE,1.1
+542,Diana,Sanchez	,sam.perez@corp.com,39,47144.61,Engineering,2016-02-13,TRUE,1.0
+543,Yara,Williams,invalid.email,33,92843.28,Operations,2017-04-09,No,1.9
+544,Uma,Martinez,sam.thomas@corp.com,49,71525.4,HR,2017-09-04,1,2.6
+545,Sam,Martinez,rachel.garcia@firm.co,49,82925.68,Operations,2017-05-30,1,4.4
+546,,Taylor,bob.gonzalez@enterprise.net,54,,Marketing,2019-08-14,No,4.2
+547,  Victor  ,Moore	,peter.jackson@corp.com,40,63678.9,Operations,2022-10-12,1,2.1
+236,Eve,Williams,liam.wilson@company.com,49,94916.9,Engineering,2025-08-12,FALSE,2.0
+549,Wendy,Harris,yara.martinez@enterprise.net,58,84455.49,Sales,2017-01-26,1,1.9
+219,Kate,Thomas,wendy.lopez@firm.co,47,67357.17,Operations,2022-05-08,1,2.4
+551,Noah,Brown,bob.jones@enterprise.net,56,61006.67,Engineering,2022-07-19,1,3.0
+552,Casey,Perez	,liam.sanchez@firm.co,55,30856.51,Finance,2016-06-26,FALSE,2.8
+553,Diana,Hernandez,alice.harris@enterprise.net,56,71491.35,Operations,2021-10-27,1,1.9
+554,  Frank  ,Hernandez,maya.brown@corp.com,61,62477.92,Operations,2016-12-04,0,1.5
+555,Zoe,Gonzalez,liam.lopez@corp.com,37,76079.12,Marketing,2021-03-06,FALSE,1.1
+556,Frank,White,liam.johnson@business.org,59,82156.38,Finance,2021-02-27,No,1.6
+557,Rachel,Jackson,henry.davis@enterprise.net,34,89658.42,Operations,2016-06-28,Yes,3.8
+558,Maya,Martin,sam.williams@company.com,44,71739.86,Engineering,2019-03-16,No,2.0
+559,Quinn,Smith,blake.martinez@company.com,43,44072.79,Operations,2017-03-18,Yes,2.9
+560,Kate,Clark,kate.garcia@company.com,37,22013.73,Finance,2018-05-11,No,3.4
+561,Victor,Garcia,rachel.hernandez@company.com,49,48506.0,Engineering,2025-07-29,0,4.5
+390,Wendy,Smith,liam.gonzalez@enterprise.net,56,91669.77,Sales,2020-05-31,Yes,4.6
+563,Rachel,Hernandez,sam.taylor@corp.com,29,101469.83,Finance,2018-05-16,Yes,4.0
+564,  Tara  ,Clark,ivy.smith@corp.com,43,60241.98,Finance,2019-12-17,TRUE,1.1
+565,Olivia,Hernandez,sam.smith@enterprise.net,42,35780.81,Finance,2017-03-04,Yes,3.3
+566,Drew,Perez	,maya.jackson@corp.com,47,52031.73,Engineering,2024-01-13,Yes,4.1
+567,Liam,Thomas	,kate.jackson@company.com,61,87756.12,Finance,2016-01-02,TRUE,1.1
+568,Casey,Thomas,zoe.thomas@company.com,42,53179.74,Finance,2021-04-01,1,3.2
+569,Kate,Sanchez,wendy.perez@business.org,46,76782.48,Sales,2023-02-26,1,4.4
+570,Rachel,Johnson,kate.thomas@firm.co,62,68371.17,HR,2023-03-01,TRUE,2.9
+571,Kate,Lee,zoe.harris@enterprise.net,22,79200.07,Finance,2017-08-06,FALSE,1.0
+572,Blake,Jones,invalid.email,27,101360.22,Engineering,2017-04-22,Yes,1.0
+573,Liam,Thomas,liam.wilson@business.org,44,76795.63,Engineering,2023-05-10,Yes,2.7
+300,Xander,Jones,uma.anderson@company.com,44,67938.33,Operations,2020-05-21,TRUE,1.6
+575,Yara,Lee,alex.moore@business.org,64,103567.47,Finance,2023-02-01,TRUE,3.7
+576,Uma,Anderson,jack.rodriguez@company.com,64,71991.04,Sales,2019-12-04,FALSE,3.8
+577,Noah,Moore,jack.jackson@corp.com,44,49141.05,Engineering,2019-02-15,0,1.7
+349,Drew,Taylor,eve.sanchez@enterprise.net,53,78749.31,Marketing,2016-11-22,1,4.6
+579,  Xander  ,Anderson,xander.williams@firm.co,51,73949.11,Sales,2019-07-06,No,2.8
+580,Kate,Sanchez,diana.jackson@enterprise.net,34,58841.95,Sales,2017-03-18,0,1.6
+581,Tara,Clark,ivy.williams@firm.co,64,54648.28,Operations,2020-06-14,1,4.1
+582,Henry,Wilson,zoe.taylor@corp.com,39,59034.81,Finance,2017-08-09,Yes,4.2
+583,Sam,White,noah.miller@enterprise.net,44,54362.21,HR,2016-07-29,0,3.6
+584,Rachel,Johnson,zoe.williams@enterprise.net,36,59684.8,Engineering,2020-07-14,TRUE,4.4
+585,Grace,Clark,quinn.sanchez@enterprise.net,54,48144.07,Finance,2021-11-20,FALSE,3.9
+586,  Maya  ,Taylor,noah.perez@firm.co,42,72723.09,Finance,2016-10-29,1,4.5
+587,Yara,Martinez,kate.miller@corp.com,60,71224.03,Marketing,2024-09-29,FALSE,2.7
+588,Rachel,Jackson,maya.rodriguez@firm.co,44,71904.04,HR,2022-03-13,1,4.0
+589,  Drew  ,White,quinn.anderson@firm.co,48,63752.61,Finance,2016-03-22,0,5.0
+590,Xander,Perez,frank.smith@firm.co,39,61446.73,Engineering,2023-08-08,Yes,3.9
+591,Ivy,Hernandez,blake.garcia@firm.co,45,93840.12,HR,2020-11-24,No,1.5
+592,Liam,Moore	,,61,66348.12,Engineering,2017-01-26,FALSE,3.1
+593,Olivia,Moore,ivy.lee@firm.co,63,90275.34,Marketing,2017-11-18,FALSE,3.3
+594,Olivia,Smith,zoe.martin@corp.com,28,45071.68,HR,2021-01-09,No,1.7
+595,Maya,Miller,drew.jackson@company.com,41,76783.56,Sales,2023-05-11,FALSE,4.9
+347,  Tara  ,White,alex.moore@corp.com,48,50305.94,HR,2020-10-15,FALSE,1.7
+597,Xander,Perez,olivia.jones@business.org,27,53876.96,Engineering,2020-08-29,1,1.7
+598,Bob,Hernandez,eve.white@enterprise.net,48,56761.88,Finance,2016-02-22,1,4.7
+599,Jack,Sanchez,blake.wilson@corp.com,30,55508.02,Marketing,2019-06-12,No,2.9
+79,Henry,Williams,zoe.jackson@enterprise.net,52,55607.91,HR,2025-05-15,Yes,1.3
+601,Alice,Lopez,uma.miller@corp.com,42,89345.5,Marketing,2021-07-04,0,3.4
+602,Quinn,Williams,,47,65908.22,Engineering,2024-02-24,0,3.4
+603,Eve,Jones,uma.garcia@enterprise.net,61,69501.11,Engineering,2019-03-26,FALSE,1.3
+604,Casey,Rodriguez,victor.martin@business.org,34,55856.8,Engineering,2015-11-29,Yes,4.9
+605,Jack,Clark,maya.davis@company.com,44,82138.79,Finance,2024-04-08,No,3.2
+606,Alice,Smith,eve.miller@company.com,41,72101.13,Sales,2022-04-13,No,3.2
+607,Jack,Hernandez,henry.sanchez@enterprise.net,58,58821.43,Marketing,2017-06-07,1,3.1
+608,Henry,Gonzalez,olivia.thomas@firm.co,49,33314.32,Sales,2025-08-07,FALSE,3.4
+609,  Grace  ,Lee,noah.wilson@company.com,38,69325.93,Sales,2020-02-07,TRUE,2.1
+610,Blake,Moore,grace.garcia@enterprise.net,49,76513.59,Marketing,2016-08-14,No,2.1
+611,Kate,Clark,eve.smith@enterprise.net,62,45423.04,Engineering,2018-04-27,FALSE,3.0
+612,Alice,Garcia,zoe.sanchez@enterprise.net,23,59092.11,Sales,2016-05-08,Yes,4.2
+613,Yara,Jackson,victor.moore@business.org,46,75743.21,Marketing,2021-09-24,1,1.2
+614,Alex,Martin,uma.johnson@corp.com,62,33581.44,HR,2021-11-24,0,3.4
+615,Wendy,Gonzalez,zoe.smith@company.com,27,52022.96,Operations,2023-03-07,Yes,4.2
+616,,Garcia	,blake.williams@enterprise.net,32,72538.18,Sales,2021-01-03,No,1.6
+617,Ivy,Martin,tara.martinez@company.com,59,87100.37,Engineering,2020-12-07,No,1.1
+618,Drew,Brown,casey.wilson@enterprise.net,27,108715.6,Finance,2018-01-07,Yes,2.3
+372,Olivia,Harris,victor.jones@firm.co,32,104173.1,Marketing,2017-04-08,No,3.4
+620,,Harris,maya.clark@business.org,35,,Sales,2021-03-08,FALSE,1.6
+621,Rachel,Martinez,henry.brown@firm.co,23,55315.46,Engineering,2017-02-25,No,2.7
+26,Uma,Miller,tara.brown@firm.co,61,83462.45,Operations,2016-12-22,1,3.2
+623,Drew,Hernandez,quinn.perez@firm.co,24,54128.14,Engineering,2017-12-18,FALSE,3.4
+624,Sam,Thompson,yara.taylor@enterprise.net,56,49758.09,Marketing,2019-09-05,TRUE,2.1
+625,Eve,Johnson,peter.williams@business.org,54,58894.68,HR,2022-05-07,No,2.6
+626,Diana,Rodriguez,tara.brown@enterprise.net,45,56386.53,Engineering,2022-01-19,No,4.1
+627,Bob,Wilson,kate.clark@firm.co,40,73252.61,Marketing,2019-02-15,1,4.8
+96,Kate,Smith,ivy.jones@firm.co,39,52951.97,Sales,2025-06-12,1,4.4
+629,Liam,Thomas,drew.wilson@business.org,45,66702.44,HR,2019-05-06,0,3.3
+630,Eve,Davis,eve.brown@business.org,56,96899.07,Marketing,2016-11-25,Yes,2.6
+631,Eve,Lopez,grace.rodriguez@corp.com,22,67442.81,Marketing,2025-05-07,Yes,2.3
+632,Ivy,Anderson,noah.rodriguez@firm.co,57,95334.85,HR,2024-02-24,Yes,1.5
+633,Liam,Clark,bob.thomas@firm.co,46,89041.13,Engineering,2023-12-26,1,1.4
+634,Casey,Martinez,liam.thompson@company.com,64,76840.8,Engineering,2022-01-02,Yes,3.8
+635,Sam,Miller	,kate.moore@corp.com,55,57916.94,Sales,2019-05-03,Yes,2.0
+636,  Henry  ,Taylor,peter.perez@business.org,46,85810.16,Sales,2018-08-24,TRUE,2.0
+637,  Henry  ,Martinez	,ivy.sanchez@business.org,37,60000.5,Finance,2016-09-29,Yes,5.0
+638,Ivy,Garcia,liam.thomas@enterprise.net,55,64959.81,Finance,2018-12-12,No,1.8
+243,Zoe,Anderson,diana.sanchez@business.org,50,71603.97,Sales,2018-11-22,0,1.6
+640,Jack,Lopez,uma.martin@company.com,40,64892.65,HR,2019-04-10,1,1.4
+641,,Sanchez,alex.white@company.com,44,,Finance,2015-12-26,FALSE,3.3
+642,Sam,Johnson,wendy.sanchez@business.org,40,34458.02,Finance,2021-04-28,0,3.5
+643,Maya,Harris,ivy.moore@corp.com,46,84182.66,HR,2021-06-07,TRUE,2.5
+644,Sam,Miller,jack.lee@enterprise.net,37,76406.84,Engineering,2023-06-02,1,3.1
+645,Drew,Williams,casey.sanchez@company.com,30,30587.78,Marketing,2021-04-29,1,4.2
+646,Grace,Anderson,rachel.davis@corp.com,22,50064.25,Engineering,2024-12-29,No,4.3
+647,Xander,Taylor,maya.smith@corp.com,63,68581.31,Marketing,2019-09-18,0,4.8
+648,Charlie,Smith,drew.rodriguez@enterprise.net,40,73851.45,HR,2021-05-17,0,4.3
+649,,Sanchez,charlie.clark@business.org,54,34630.93,Finance,2023-08-06,Yes,3.3
+650,Kate,Thomas,jack.miller@business.org,55,63215.23,HR,2020-05-20,No,1.7
+651,Zoe,Taylor,drew.anderson@enterprise.net,37,75793.09,Engineering,2024-06-28,Yes,1.4
+247,Olivia,Harris,jack.miller@corp.com,61,57969.76,HR,2022-01-08,Yes,1.2
+653,Frank,Miller,invalid.email,39,70116.59,Engineering,2019-04-28,1,3.7
+654,  Peter  ,Hernandez,blake.williams@corp.com,55,55248.96,HR,2020-08-23,0,4.2
+108,  Rachel  ,Lee	,yara.gonzalez@business.org,46,83183.93,Operations,2018-07-17,Yes,3.0
+656,Casey,White,drew.clark@enterprise.net,27,49014.29,Sales,2022-04-17,TRUE,1.2
+657,Wendy,Taylor,wendy.wilson@company.com,42,42158.44,Engineering,2024-08-30,TRUE,3.1
+658,Wendy,Martinez,alex.garcia@enterprise.net,27,65578.54,Marketing,2023-10-14,0,4.7
+220,Alice,Jones,frank.anderson@business.org,53,36329.48,Finance,2024-07-15,TRUE,3.4
+660,,Hernandez,noah.martin@firm.co,62,22897.78,Finance,2018-02-20,1,4.2
+661,Drew,Jones,xander.hernandez@corp.com,64,86674.71,Operations,2019-07-05,No,4.2
+662,  Diana  ,Harris,wendy.smith@company.com,60,45315.51,Engineering,2023-09-19,FALSE,4.7
+663,Tara,Brown,uma.lee@business.org,52,38326.97,Sales,2025-05-07,Yes,4.1
+664,Uma,Clark,uma.anderson@business.org,63,48764.82,Finance,2016-06-09,FALSE,4.0
+665,Jack,Taylor,alice.gonzalez@business.org,31,47866.99,Operations,2017-12-24,No,1.9
+666,Bob,Perez,uma.martinez@enterprise.net,51,62157.77,Sales,2018-12-10,No,1.2
+667,Xander,Jones,invalid.email,39,43130.27,Marketing,2020-03-24,1,3.1
+668,Zoe,Miller,frank.davis@firm.co,45,74963.72,Finance,2025-05-29,TRUE,1.5
+669,Sam,White,wendy.harris@business.org,30,77924.68,HR,2023-08-13,TRUE,4.8
+670,Maya,Johnson,blake.martin@corp.com,52,39500.17,HR,2023-06-23,No,2.2
+671,Charlie,Anderson,zoe.hernandez@corp.com,36,52638.07,Engineering,2024-12-05,1,4.4
+672,  Yara  ,Gonzalez	,peter.white@business.org,25,54538.86,Operations,2021-05-19,1,2.6
+673,  Bob  ,Thompson,ivy.garcia@firm.co,61,61699.85,Finance,2022-07-11,0,2.3
+674,Drew,Taylor,alex.hernandez@enterprise.net,30,86653.67,Sales,2023-05-26,Yes,4.7
+675,Yara,Brown,grace.williams@corp.com,30,87806.27,Sales,2023-02-04,TRUE,2.5
+676,Kate,Smith	,liam.garcia@corp.com,47,114977.35,Marketing,2022-06-11,No,2.6
+677,Liam,Martinez,casey.gonzalez@firm.co,25,19612.52,Finance,2018-04-24,0,1.4
+678,Casey,Johnson,henry.smith@company.com,38,46514.09,Sales,2019-10-30,FALSE,3.7
+679,Alex,Perez,drew.moore@firm.co,37,101280.18,Sales,2024-12-03,TRUE,2.2
+680,Noah,Martin,uma.davis@company.com,36,28985.99,Finance,2020-08-10,Yes,3.3
+681,Noah,Williams,olivia.miller@enterprise.net,56,100825.3,HR,2025-01-23,1,3.4
+682,Drew,Hernandez,wendy.garcia@company.com,26,67947.03,Finance,2021-07-29,No,3.9
+683,Blake,Anderson	,maya.martin@corp.com,26,68682.66,HR,2019-11-23,TRUE,4.0
+684,  Diana  ,Johnson,tara.rodriguez@business.org,41,39404.04,Engineering,2025-08-01,FALSE,3.1
+685,  Blake  ,Brown,charlie.lopez@business.org,36,55976.74,Engineering,2023-10-13,Yes,2.3
+686,Yara,Taylor,sam.brown@company.com,39,99947.53,HR,2022-01-16,Yes,4.3
+257,Ivy,White,henry.harris@company.com,23,64046.34,Finance,2016-01-25,0,2.2
+688,Xander,Perez,yara.anderson@corp.com,50,56110.02,Marketing,2021-02-06,TRUE,3.0
+689,Uma,White	,diana.davis@business.org,34,73114.38,Operations,2021-04-28,FALSE,2.6
+345,Charlie,Thompson,uma.lee@enterprise.net,25,61155.65,Sales,2023-12-12,Yes,4.4
+691,Tara,Smith,jack.white@corp.com,63,71903.02,Engineering,2024-06-19,No,2.7
+692,Drew,Jackson,maya.jones@corp.com,31,48005.17,Engineering,2024-04-05,Yes,2.5
+693,Alice,Harris,blake.miller@firm.co,52,63456.95,HR,2019-09-10,FALSE,3.8
+694,Uma,Martinez,grace.clark@enterprise.net,62,52178.47,Marketing,2021-01-06,1,3.4
+695,Yara,Lee,xander.perez@business.org,29,28920.67,Finance,2020-05-06,1,1.4
+696,Uma,Miller,noah.garcia@corp.com,24,74639.16,Marketing,2017-05-17,0,3.0
+697,Maya,Hernandez,zoe.jones@company.com,30,40324.54,Operations,2024-12-08,TRUE,3.9
+698,Bob,Miller,jack.rodriguez@business.org,51,61705.18,HR,2021-05-06,FALSE,5.0
+699,Jack,Miller,tara.anderson@business.org,32,83521.36,Marketing,2016-01-01,0,3.5
+700,Quinn,Martinez,liam.jackson@corp.com,56,35043.73,Operations,2023-05-24,Yes,2.5
+701,Bob,Rodriguez,charlie.smith@corp.com,58,77093.68,Sales,2024-04-01,Yes,1.9
+702,  Kate  ,Moore,eve.hernandez@corp.com,63,59003.73,Finance,2015-12-12,1,4.5
+703,Rachel,Hernandez,victor.miller@corp.com,34,45669.53,Finance,2023-05-27,0,4.3
+704,Sam,Harris,wendy.wilson@firm.co,57,105458.47,Marketing,2022-03-27,1,1.9
+705,Eve,Anderson,ivy.williams@company.com,34,64988.87,Engineering,2020-11-10,No,1.8
+706,Kate,Perez,rachel.johnson@company.com,33,53638.14,Sales,2016-07-14,1,3.9
+707,Quinn,Brown	,kate.davis@corp.com,58,49395.74,Operations,2017-10-01,No,2.3
+708,Wendy,Rodriguez	,drew.lopez@firm.co,31,82623.25,Finance,2018-04-03,Yes,2.2
+709,Henry,Jones,victor.sanchez@firm.co,30,52758.88,Finance,2020-05-20,0,1.6
+710,Eve,Garcia,,28,80130.36,Engineering,2023-12-05,No,2.1
+711,  Bob  ,Rodriguez,alice.rodriguez@firm.co,23,64950.4,Marketing,2018-12-09,0,2.7
+712,Victor,Brown,tara.gonzalez@enterprise.net,44,87323.76,Engineering,2019-04-05,0,3.9
+713,Xander,Smith,maya.perez@enterprise.net,60,44149.21,HR,2022-03-24,No,2.3
+714,Maya,Martin,eve.moore@company.com,61,46938.74,Operations,2019-02-13,TRUE,2.3
+715,,Moore,sam.garcia@enterprise.net,60,59379.89,Engineering,2023-06-07,1,2.1
+716,Yara,Taylor,frank.taylor@corp.com,42,61038.67,Sales,2020-01-27,No,2.9
+717,Tara,Brown,drew.hernandez@corp.com,44,57908.86,Operations,2017-09-02,Yes,1.7
+718,Sam,Miller,eve.williams@enterprise.net,50,117628.81,Finance,2018-01-10,0,2.9
+719,Quinn,Moore,wendy.taylor@corp.com,35,106264.94,Marketing,2020-07-24,FALSE,3.8
+720,Charlie,Lopez,eve.rodriguez@company.com,47,70981.1,HR,2022-08-14,No,1.1
+721,Henry,Moore,kate.johnson@business.org,26,73339.44,Sales,2023-06-12,1,1.0
+722,Noah,Hernandez,peter.clark@enterprise.net,52,60271.36,Finance,2025-08-16,0,1.3
+723,Jack,Rodriguez,xander.lopez@corp.com,46,44003.49,Finance,2024-02-09,TRUE,3.1
+724,Zoe,Jones,jack.rodriguez@firm.co,52,61358.56,Marketing,2020-09-16,Yes,4.4
+725,Maya,Thompson,alex.harris@enterprise.net,41,80422.36,Operations,2024-12-27,TRUE,1.0
+726,Eve,Sanchez,quinn.hernandez@corp.com,38,91112.54,Marketing,2016-06-17,FALSE,4.7
+727,Eve,Martinez,casey.garcia@enterprise.net,23,84914.17,Operations,2021-03-25,No,1.4
+728,Kate,Jackson,xander.thomas@business.org,46,34804.51,Marketing,2018-12-04,0,4.4
+729,Charlie,Davis,rachel.perez@corp.com,34,59215.45,Operations,2016-08-26,No,2.9
+730,Peter,Garcia,bob.miller@business.org,60,35622.65,HR,2022-12-09,1,3.6
+731,Sam,Williams,bob.davis@business.org,49,88376.87,Marketing,2019-10-24,No,3.0
+732,Xander,Martinez,bob.thomas@enterprise.net,63,56752.31,Sales,2022-01-07,Yes,2.9
+245,Peter,Wilson,,27,64057.8,Operations,2019-04-29,FALSE,4.3
+734,Rachel,Hernandez,noah.brown@corp.com,24,74601.01,Marketing,2015-11-06,TRUE,4.0
+735,Maya,Moore	,bob.anderson@enterprise.net,56,120322.8,Marketing,2020-03-15,FALSE,2.9
+736,Ivy,Anderson,wendy.moore@corp.com,39,70365.5,Sales,2020-07-19,0,1.4
+737,Charlie,Johnson,olivia.thomas@company.com,32,60234.58,HR,2020-07-08,No,1.5
+738,Maya,Jones,blake.white@business.org,41,40179.16,Finance,2019-04-01,0,4.2
+739,  Quinn  ,Smith,diana.lopez@company.com,26,94172.79,Marketing,2025-04-08,TRUE,3.1
+740,Noah,Thomas,grace.martinez@business.org,40,61367.27,Engineering,2017-06-10,0,2.9
+222,Bob,Miller,eve.brown@firm.co,43,98142.85,Operations,2024-09-07,1,3.7
+742,Wendy,Johnson,alex.rodriguez@firm.co,40,87112.26,Sales,2022-06-24,FALSE,4.4
+743,Eve,Brown,casey.perez@firm.co,37,55740.88,Operations,2018-06-17,TRUE,3.5
+744,Yara,Gonzalez,grace.jackson@company.com,45,37154.48,Engineering,2015-10-30,TRUE,4.1
+745,Eve,Johnson,invalid.email,62,70451.38,Finance,2020-08-03,TRUE,4.1
+746,Peter,Williams	,frank.wilson@company.com,25,52701.93,HR,2021-10-26,Yes,2.4
+747,Rachel,Wilson	,henry.harris@corp.com,36,65786.92,Engineering,2017-11-08,FALSE,2.1
+748,Grace,Gonzalez,victor.brown@enterprise.net,46,85980.99,Engineering,2016-04-04,0,4.2
+749,Peter,Garcia,alice.martinez@company.com,56,31928.36,Operations,2017-09-23,TRUE,2.5
+750,Maya,Thompson,maya.lopez@firm.co,35,70292.28,Sales,2016-10-27,FALSE,4.6
+751,  Uma  ,Martin	,drew.brown@enterprise.net,40,80191.92,HR,2022-05-16,TRUE,1.3
+752,Sam,Jackson,eve.smith@company.com,59,81162.21,Finance,2021-04-28,1,1.2
+753,  Grace  ,Lee,olivia.clark@corp.com,57,37729.16,Operations,2018-11-01,1,4.7
+52,Grace,Martin,invalid.email,28,73386.73,Operations,2016-06-22,1,3.6
+755,  Tara  ,Thompson,tara.perez@company.com,51,89070.73,HR,2016-08-16,No,2.5
+756,Xander,Thompson,invalid.email,40,71864.68,HR,2016-03-06,TRUE,4.0
+757,  Quinn  ,Anderson,olivia.hernandez@firm.co,46,62686.12,Finance,2023-09-29,No,3.7
+373,Xander,Anderson,xander.anderson@enterprise.net,37,87792.26,Engineering,2021-01-19,FALSE,3.1
+759,Henry,Lopez,zoe.lee@enterprise.net,61,51113.62,Operations,2022-11-30,No,1.4
+760,Charlie,Martinez	,kate.sanchez@company.com,29,34403.34,Operations,2023-09-11,FALSE,4.2
+761,Ivy,Hernandez,xander.williams@firm.co,39,60988.04,Engineering,2018-10-12,FALSE,4.5
+762,  Yara  ,Clark,tara.gonzalez@company.com,49,75700.9,Finance,2017-06-26,FALSE,1.7
+763,Noah,Miller,maya.rodriguez@business.org,37,85778.74,Engineering,2020-11-11,0,4.4
+764,Kate,Thompson,henry.harris@corp.com,40,75610.05,Operations,2020-07-28,No,4.5
+765,Victor,Harris,charlie.smith@business.org,63,81716.42,HR,2021-05-24,0,3.2
+766,Drew,Perez,invalid.email,38,85906.23,Operations,2018-04-26,TRUE,3.6
+767,Sam,Sanchez,jack.lee@business.org,34,58212.46,Engineering,2023-08-26,No,2.5
+768,Charlie,Moore,diana.martinez@corp.com,28,62041.21,Marketing,2017-11-15,TRUE,2.1
+769,Diana,Williams,zoe.wilson@enterprise.net,48,90743.36,HR,2019-05-01,TRUE,3.9
+770,    ,Harris,invalid.email,31,40796.86,Finance,2024-08-20,FALSE,4.4
+771,Noah,Harris,eve.lopez@company.com,55,73582.66,Marketing,2021-04-18,No,3.6
+772,Noah,Anderson	,alex.lopez@firm.co,57,50665.82,HR,2017-11-15,TRUE,3.0
+773,Liam,Jackson	,grace.thomas@corp.com,46,87005.23,Sales,2025-03-21,1,1.6
+380,Eve,Smith	,kate.johnson@firm.co,27,64641.29,Operations,2023-01-08,TRUE,1.2
+775,  Grace  ,Williams,ivy.jackson@firm.co,45,65151.88,Engineering,2015-12-12,1,2.8
+776,Kate,Clark,noah.williams@corp.com,39,99577.6,Engineering,2023-12-09,No,1.2
+777,Liam,Sanchez,zoe.lopez@firm.co,44,43479.14,HR,2022-08-21,0,3.3
+206,Frank,Thompson,alex.jackson@company.com,27,69316.39,Marketing,2015-10-24,No,2.5
+45,Henry,Rodriguez,henry.wilson@firm.co,50,61397.48,Sales,2018-08-31,0,4.0
+780,Alice,Brown,kate.anderson@business.org,46,75648.23,HR,2019-09-05,0,2.2
+781,Yara,Anderson,uma.perez@business.org,38,103586.62,Engineering,2022-06-08,No,3.4
+782,Jack,Martinez,drew.thomas@firm.co,45,52895.17,Sales,2018-03-26,TRUE,3.2
+783,Frank,Perez,uma.lee@firm.co,32,41052.05,Operations,2024-12-16,Yes,1.0
+784,Liam,Lee,charlie.martinez@corp.com,47,48813.45,Engineering,2017-11-17,TRUE,1.3
+785,Tara,Thompson,noah.williams@corp.com,55,60343.64,Marketing,2017-07-24,TRUE,2.2
+786,Alex,Harris,jack.jones@business.org,49,66284.62,Operations,2017-08-10,FALSE,4.5
+787,  Zoe  ,Anderson,victor.martinez@business.org,24,67290.58,Operations,2023-04-10,FALSE,1.6
+788,Olivia,Thomas,quinn.wilson@enterprise.net,32,101053.22,Marketing,2020-03-04,TRUE,3.8
+789,Tara,Davis,,59,,Sales,2021-02-04,1,4.9
+790,Eve,Davis,charlie.johnson@firm.co,35,91058.93,Engineering,2017-03-01,0,4.2
+791,Olivia,Jones	,diana.taylor@corp.com,47,115288.77,Finance,2019-07-05,FALSE,2.0
+792,Bob,Martin,noah.brown@corp.com,42,81481.97,Operations,2024-05-07,TRUE,4.6
+88,Alex,Davis,xander.sanchez@firm.co,60,87167.1,Marketing,2021-07-28,Yes,1.4
+794,Alex,Lopez,alex.rodriguez@enterprise.net,51,81095.41,Operations,2024-11-06,1,2.9
+795,Henry,Gonzalez,ivy.jackson@company.com,29,77818.11,Sales,2017-03-27,No,4.6
+796,Grace,Garcia,yara.taylor@company.com,41,72887.93,Sales,2024-07-12,TRUE,3.6
+797,Victor,Thompson,diana.white@corp.com,53,57062.86,HR,2020-01-19,TRUE,2.7
+798,Liam,Perez,frank.sanchez@business.org,43,40064.44,Marketing,2017-02-10,0,2.2
+799,Eve,Hernandez,alex.gonzalez@company.com,28,62386.92,Engineering,2016-12-19,1,2.5
+800,Yara,Sanchez,invalid.email,30,76315.47,Marketing,2022-01-19,FALSE,3.0

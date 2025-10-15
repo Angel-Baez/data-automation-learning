@@ -1,0 +1,53 @@
+{
+  "metadata": {
+    "filename": "03_mixed_types.csv",
+    "file_size_mb": 0.05,
+    "encoding": "ascii",
+    "delimiter": ",",
+    "detected_encoding": "ascii",
+    "detected_delimiter": ",",
+    "has_header": true,
+    "column_names": [
+      "id_as_string",
+      "numeric_as_string",
+      "boolean_as_string",
+      "date_as_string",
+      "percentage_as_string",
+      "currency_as_string",
+      "mixed_numeric",
+      "categorical_data",
+      "free_text"
+    ],
+    "data_types": {
+      "id_as_string": "int64",
+      "numeric_as_string": "float64",
+      "boolean_as_string": "bool",
+      "date_as_string": "datetime64[ns]",
+      "percentage_as_string": "object",
+      "currency_as_string": "object",
+      "mixed_numeric": "object",
+      "categorical_data": "object",
+      "free_text": "object"
+    },
+    "processing_timestamp": "2025-10-15T18:51:18.498230"
+  },
+  "statistics": {
+    "original_rows": 500,
+    "final_rows": 500,
+    "rows_removed": 0,
+    "original_columns": 9,
+    "final_columns": 9,
+    "duplicates_removed": 0,
+    "missing_values_filled": 0,
+    "invalid_rows_removed": 0,
+    "processing_time_seconds": 0.27,
+    "memory_usage_mb": 0.16,
+    "quality_score": 0.9285,
+    "data_reduction_percentage": 0.0
+  },
+  "processing_info": {
+    "processor_version": "1.0.0",
+    "config_profile": "default",
+    "output_file": "data/output/batch_processed/processed_03_mixed_types.csv"
+  }
+}
